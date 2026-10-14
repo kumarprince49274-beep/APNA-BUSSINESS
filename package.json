@@ -1,0 +1,17 @@
+{
+  "name": "apna-business-local",
+  "version": "0.5.0",
+  "private": true,
+  "description": "Apna Business - local full-stack accounting foundation",
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "node --experimental-sqlite --watch src/server.js",
+    "start": "node --experimental-sqlite src/server.js",
+    "test": "node --experimental-sqlite --test test/*.test.js",
+    "backup": "node --experimental-sqlite scripts/backup.mjs",
+    "restore": "node --experimental-sqlite scripts/restore.mjs"
+  }
+}
