@@ -32,7 +32,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          unzip -o 'APNA-BUSINESS-SOURCE-FOR-GITHUB (2).zip' -d .
+          unzip -n 'APNA-BUSINESS-SOURCE-FOR-GITHUB (2).zip' -d .
           test -f src/server.js
           test -f src/auth.js
           test -f src/schema.sql
@@ -57,7 +57,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          git add -A
+          git add -- .env.example .gitignore .node-version .github/workflows/tests.yml GITHUB_SETUP.md README.md START-HERE-GITHUB.md UPLOAD-ALL-FILES-FIRST.md package.json src public scripts test docs
           if git diff --cached --quiet; then
             echo 'Repository already contains the complete tested source.'
             exit 0
