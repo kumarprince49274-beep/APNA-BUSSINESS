@@ -1,17 +1,8 @@
-APNA BUSINESS 0.6.0 — local validation, 2026-10-15
-Platform: Node.js v22.16.0, experimental node:sqlite
-npm test: 46 total, 46 pass, 0 fail
-
-Tests include previous ledger/invoices, GST, company isolation, login, backup,
-password reset, local text AI privacy and provider gating, payroll internal review,
-optional payment verification with mocked provider, new CRM permissions,
-PO approval, manufacturing work-order isolation, manual attendance,
-manual 2B reference comparison, and Salary Statement access control.
-
-Smoke test: isolated synthetic 3-company local database created successfully;
-HTTP login, company enumeration, ERP CRM/PO/BOM/work orders/attendance,
-manual GST reference comparison and website / route responded successfully.
-
-NOT tested with live GSTN, EPFO/ESIC/ITD, payroll payout, real Razorpay,
-real OpenAI account, durable production DB, SMS OTP, or public SaaS workloads.
-Passing local tests do NOT certify compliance or production readiness.
+APNA BUSINESS 0.9.0 — Stage 9 developer validation, 2026-10-15
+Node.js v22.16.0 — built-in experimental node:sqlite
+`npm test`: 63 tests, 63 pass, 0 fail.
+Previous Stage 8 baseline: 59/59 passing.
+Stage 9 additions: local text document review, optional external AI image/PDF/Word review, voice transcription review, company isolation, explicit AI-sharing consent, SHA-256 review caching, audit records, and no-posting regression checks.
+`node --check public/app.js`, `node --check src/server.js`, and `node --check src/ai-document-review.js`: passed.
+Manual Windows browser QA and real provider smoke testing remain required.
+No official GSTN filing, statutory payroll filing, recurring SaaS billing, or production database validation is claimed by this patch.
