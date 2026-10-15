@@ -1,0 +1,3974 @@
+# APNA BUSINESS — COMPLETE AND FINAL MASTER DEVELOPMENT PROMPT
+
+## BUILD THE COMPLETE AI-POWERED BUSINESS ACCOUNTING, MANAGEMENT AND SAAS PLATFORM
+
+You are a principal full-stack software engineer, Indian accounting systems architect, AI engineer, database specialist, financial mathematics developer, cybersecurity expert, product designer, quality assurance engineer, and SaaS platform architect.
+
+Your mission is to build a complete, secure, reliable, scalable, and exceptionally easy-to-use business accounting application.
+
+APPLICATION NAME: **APNA BUSINESS**
+
+OFFICIAL BRAND NAME: **APNA BUSINESS**
+
+TAGLINE: **YOUR PRIVATE AI ACCOUNTANT**
+
+IMPORTANT BRANDING REQUIREMENT:
+
+The application name must always be displayed as **APNA BUSINESS** in CAPITAL LETTERS.
+
+Do not include version numbers such as 5.0 or 6.0 anywhere in the public product name, header, login screen, logo, mobile app name, or Windows application name.
+
+Internal software versioning is allowed for technical maintenance.
+
+---
+
+# 1. EXISTING PROJECT AND SOURCE CODE
+
+Existing Replit Project:
+
+https://replit.com/@princebankstory/My-Business-AI-Accountant
+
+Previously Published App:
+
+https://my-business-ai-accountant--princebankstory.replit.app
+
+Before beginning:
+
+- Inspect the original project's source code if authorized access is available.
+- Identify its current technology stack.
+- Inspect the existing frontend and backend.
+- Inspect the database schema.
+- Identify all working and incomplete features.
+- Inspect package dependencies and configuration.
+- Identify existing login, billing, accounting, and AI integrations.
+- Identify technical debt and incomplete functionality.
+- Preserve all working code and authentic business records.
+- Back up important files and databases before structural changes.
+
+Do not delete, overwrite, or unnecessarily rebuild the original application.
+
+If the original project cannot be accessed, explicitly state that limitation and create a new complete project using this specification.
+
+Never pretend that private source code can be obtained from the public application website.
+
+---
+
+# 2. COMPLETE PRODUCT VISION
+
+Build APNA BUSINESS as an all-in-one AI Business Operating System.
+
+It must combine:
+
+1. Professional double-entry accounting.
+2. Tally-like accounting capabilities.
+3. Extremely simple billing.
+4. Indian GST calculations.
+5. Sales and purchase management.
+6. Customers and suppliers.
+7. Inventory and FIFO valuation.
+8. Banking and reconciliation.
+9. Balance Sheet and Profit & Loss.
+10. Complete financial reporting.
+11. Excel-like spreadsheets.
+12. Mathematical and financial formulas.
+13. AI Accountant Chat.
+14. AI assistance throughout the application.
+15. Photo and document understanding.
+16. Audio and voice-based accounting.
+17. Supported video analysis.
+18. Private company AI knowledge.
+19. Approved continuous AI improvement.
+20. Strong error detection.
+21. Secure error correction.
+22. Multi-company management.
+23. Staff and accountant access.
+24. SaaS subscriptions.
+25. Payment processing.
+26. SaaS revenue analytics.
+27. AI cost monitoring.
+28. Premium features and monetization.
+29. Data export and backups.
+30. Web, Android, and Windows application delivery.
+
+Every major feature must have working functionality, not merely a visual demonstration.
+
+---
+
+# 3. MOST IMPORTANT USER EXPERIENCE RULE
+
+The app must be powerful internally but extremely simple to operate.
+
+Do not create separate mandatory AI Mode and Tally Mode selection screens.
+
+The user must never need to choose a mode before using a feature.
+
+All capabilities should work naturally in one unified interface.
+
+Examples:
+
+A user can type a transaction in AI Chat.
+
+Another user can upload a bill photo.
+
+Another user can create an invoice manually.
+
+Another user can use an accounting voucher.
+
+All four interactions must eventually use the same trusted accounting engine.
+
+CORE PRODUCT PRINCIPLE:
+
+**One Simple Interface + One Trusted Accounting Engine + AI Everywhere.**
+
+A shopkeeper should not need to understand debit and credit for everyday activities.
+
+A professional accountant must still have complete access to advanced accounting functionality.
+
+---
+
+# 4. FINAL UI DESIGN AND COLOR COMBINATION
+
+The attached APNA BUSINESS website screenshot is the primary visual reference.
+
+Preserve its premium, calm, professional color identity.
+
+## REQUIRED COLOR PALETTE
+
+Primary Background: Warm Cream — #F7F5EF
+
+Primary Dark Green: #234A40
+
+Primary Action Green: #337561
+
+Muted Gold Accent: #C9A75F
+
+Primary Text: Dark Charcoal — #253238
+
+Secondary Background: Warm White — #FFFFFF
+
+Light Border: #E4E4DD
+
+Subtle Sage Background: #E8EFE9
+
+Use these as initial design tokens. Refine slightly if necessary to match the existing screenshot consistently.
+
+## DESIGN PRINCIPLES
+
+- Premium financial technology appearance.
+- Clean typography.
+- Warm cream background.
+- Dark green primary buttons.
+- Gold accent for the brand logo.
+- Dark charcoal headings.
+- Soft cards and subtle borders.
+- Rounded corners without excessive decoration.
+- Clear information hierarchy.
+- Readable tables.
+- Calm dashboard charts.
+- Consistent icons.
+- Professional invoice templates.
+- Responsive layouts.
+- Accessible focus states and contrast.
+- Smooth but restrained transitions.
+
+Do not copy the dark-colored Replit editor interface shown around the website preview. The actual APNA BUSINESS website design is the reference.
+
+## BRANDING
+
+Display APNA BUSINESS in capital letters on:
+
+- Landing Page
+- Login
+- Registration
+- Dashboard
+- Application Header
+- Navigation
+- Mobile Application
+- Windows Application
+- Email Templates
+- PDF Templates
+- Subscription Pages
+- Admin Dashboard
+
+Keep the logo simple, professional, and consistent with the original design direction.
+
+## DARK MODE
+
+Provide an optional dark mode using coordinated deep-green, charcoal, and muted-gold colors.
+
+Keep the screenshot-inspired cream-and-green appearance as the default theme.
+
+---
+
+# 5. MAIN APPLICATION NAVIGATION
+
+The main application must include:
+
+- Dashboard
+- AI Accountant
+- Create Invoice
+- Sales
+- Purchases
+- Expenses
+- Customers
+- Suppliers
+- Inventory
+- GST
+- Payments
+- Banking
+- Accounting
+- Ledgers
+- Vouchers
+- Reports
+- Smart Spreadsheet
+- Documents
+- AI Knowledge
+- Reminders
+- Company Management
+- Subscription
+- Profile
+- Settings
+
+Place frequently used actions at the top.
+
+Keep advanced options inside organized menus.
+
+Add universal search.
+
+Add a universal AI command bar accessible from major application screens.
+
+Support Hindi, English, and Hinglish where practical.
+
+---
+
+# 6. SMART BUSINESS DASHBOARD
+
+Create a customizable dashboard based on verified records.
+
+## REQUIRED FINANCIAL CARDS
+
+- Today's Sales
+- Today's Purchases
+- Monthly Revenue
+- Gross Profit
+- Net Profit
+- Cash Balance
+- Bank Balance
+- Customer Receivables
+- Supplier Payables
+- Inventory Value
+- GST Payable
+- Overdue Payments
+- Business Expenses
+- Working Capital
+
+## REQUIRED DASHBOARD WIDGETS
+
+- Sales Trend
+- Purchase Trend
+- Cash Inflow
+- Cash Outflow
+- Trading Details
+- Assets and Liabilities
+- Receivables and Payables
+- Cash and Bank Accounts
+- Top Groups and Ledgers
+- Accounting Ratios
+- Expense Breakdown
+- Inventory Performance
+- Recent Transactions
+
+## DASHBOARD OPTIONS
+
+- Add Widget
+- Remove Widget
+- Resize Widget
+- Expand Widget
+- Configure Widget
+- Save Layout
+- Select Company
+- Select Financial Year
+- Select Date Range
+- Open Detailed Report
+
+Use genuine database records.
+
+Never show example balances as real customer balances.
+
+If data is unavailable, display an appropriate empty state.
+
+---
+
+# 7. LOGIN, REGISTRATION AND USERS
+
+Implement secure authentication.
+
+Features:
+
+- User Registration
+- Email Login
+- Email Verification
+- Password Reset
+- Optional Google Login
+- Logout
+- User Profile
+- Profile Picture
+- Account Settings
+- Secure Sessions
+- Optional Two-Factor Authentication
+
+Display:
+
+- User Name
+- Registered Email
+- Current Company
+- User Role
+- Current Subscription
+- Account Settings
+
+Never display plaintext passwords.
+
+Use secure password hashing.
+
+## USER ROLES
+
+- Business Owner
+- Accountant
+- Manager
+- Sales Employee
+- Inventory Employee
+- Data Entry Employee
+- Read-Only Viewer
+
+Implement permissions in the backend as well as the frontend.
+
+---
+
+# 8. COMPLETE MULTI-COMPANY SYSTEM
+
+Implement:
+
+- Create Company
+- Select Company
+- Change Company
+- Alter Company
+- Close Company
+- Company Settings
+- Business Profile
+- Business Address
+- GSTIN
+- PAN
+- Company Logo
+- Financial Year
+- Books Beginning Date
+- Accounting Currency
+- Inventory Settings
+- Accounting Policies
+- Staff Permissions
+- Backup
+- Restore
+
+Every company must maintain independent:
+
+- Accounting Records
+- Ledgers
+- Vouchers
+- Customers
+- Suppliers
+- Products
+- Inventory
+- GST
+- Reports
+- Uploaded Documents
+- AI Knowledge
+
+Never mix data from different companies.
+
+---
+
+# 9. ACCOUNTING MASTERS
+
+Implement all major Accounting Masters.
+
+## ACCOUNT GROUPS
+
+- Capital Accounts
+- Current Assets
+- Current Liabilities
+- Fixed Assets
+- Cash in Hand
+- Bank Accounts
+- Sundry Debtors
+- Sundry Creditors
+- Direct Expenses
+- Indirect Expenses
+- Direct Income
+- Indirect Income
+- Sales Accounts
+- Purchase Accounts
+- Duties and Taxes
+- Loans
+- Investments
+- Provisions
+- Reserves and Surplus
+- Retained Earnings
+
+## LEDGERS
+
+- Create Ledger
+- Alter Ledger
+- Ledger List
+- Ledger Opening Balance
+- Ledger Groups
+- Customer Ledger
+- Supplier Ledger
+- Cash Ledger
+- Bank Ledger
+- Sales Ledger
+- Purchase Ledger
+- Expense Ledger
+- GST Ledger
+
+## OTHER MASTERS
+
+- Chart of Accounts
+- Cost Centers
+- Budgets
+- Currencies
+- Voucher Types
+- Opening Balances
+
+Allow AI to suggest creating missing ledgers.
+
+Require approval before creating new financial masters.
+
+Prevent duplicate ledgers.
+
+---
+
+# 10. COMPLETE VOUCHER MANAGEMENT
+
+Implement:
+
+- F4 Contra
+- F5 Payment
+- F6 Receipt
+- F7 Journal
+- F8 Sales
+- F9 Purchase
+- F10 Other Vouchers
+- Debit Note
+- Credit Note
+- Sales Return
+- Purchase Return
+- Inventory Adjustment
+- Stock Transfer
+
+Every voucher must support:
+
+- Voucher Number
+- Date
+- Company
+- Type
+- Ledgers
+- Debit
+- Credit
+- Amount
+- Narration
+- Party
+- Linked Invoice
+- Supporting Document
+- Creator
+- Audit History
+
+Support creating, reviewing, searching, filtering, printing, authorized corrections, and reversals.
+
+---
+
+# 11. TRUSTED DOUBLE-ENTRY ACCOUNTING ENGINE
+
+Build a central accounting system independent of AI-generated calculations.
+
+Mandatory rules:
+
+Total Debit = Total Credit.
+
+Assets = Liabilities + Equity.
+
+Implement:
+
+- Journal Entries
+- General Ledger
+- Cash Book
+- Bank Book
+- Trial Balance
+- Accounts Receivable
+- Accounts Payable
+- Opening Balances
+- Closing Entries
+- Period Locking
+- Transaction Reversals
+- Audit Logs
+
+Use decimal-safe money handling.
+
+Do not use unsafe floating-point calculations for official financial postings.
+
+Post related records inside atomic database transactions.
+
+Use unique transaction IDs and idempotency keys.
+
+If posting fails, roll back all related changes.
+
+Do not permit duplicate posting from retries, double-clicks, or repeated API events.
+
+---
+
+# 12. SALES BILLING SYSTEM
+
+Build simple, professional billing.
+
+Invoice fields:
+
+- Seller Name
+- Seller Address
+- Seller GSTIN
+- Buyer Details
+- Buyer GSTIN
+- Invoice Number
+- Invoice Date
+- Place of Supply
+- HSN/SAC
+- Product
+- Quantity
+- Rate
+- Discount
+- Taxable Value
+- CGST
+- SGST
+- IGST
+- Applicable Cess
+- Total
+- Payment Status
+- Payment Method
+- Due Date
+
+Support:
+
+- Cash Sales
+- Credit Sales
+- Partial Payments
+- Sales Returns
+- Credit Notes
+- Refunds
+- Recurring Invoices
+- PDF Download
+- Printing
+- Invoice Search
+
+The ordinary invoice workflow should require minimal steps.
+
+---
+
+# 13. PURCHASE MANAGEMENT
+
+Implement:
+
+- Purchase Invoice
+- Supplier Bill
+- Purchase Orders
+- Purchase Returns
+- Cash Purchases
+- Credit Purchases
+- Partial Supplier Payments
+- Purchase Register
+- Supplier Outstanding
+- Purchase GST
+- Inventory Receipt
+
+When a purchase is confirmed, update all relevant accounting and inventory records consistently.
+
+---
+
+# 14. COMPLETE INDIAN GST ACCOUNTING
+
+Support:
+
+- GSTIN
+- HSN/SAC
+- CGST
+- SGST
+- IGST
+- Applicable Cess
+- GST-Inclusive Prices
+- GST-Exclusive Prices
+- Intra-State Sales
+- Inter-State Sales
+- Place of Supply
+- Input Tax Credit Tracking
+- Output Tax
+- GST Payable
+- GST Adjustments
+- GST Purchase Register
+- GST Sales Register
+- GSTR-1 Preparation
+- GSTR-3B Preparation
+
+Apply configurable rules based on the transaction date, product classification, registration status, place of supply, and applicable legal treatment.
+
+Do not hardcode an 18% rate for every product.
+
+Implement tax rounding rules consistently.
+
+Flag uncertain GST calculations for review.
+
+Do not claim actual government filing without a verified authorized integration.
+
+---
+
+# 15. COMPLETE INVENTORY MANAGEMENT
+
+Implement inventory masters:
+
+- Stock Groups
+- Stock Categories
+- Stock Items
+- Units
+- Godowns
+- Warehouses
+- Opening Stock
+- Price Lists
+
+Inventory operations:
+
+- Purchase Stock
+- Sales Stock
+- Stock In
+- Stock Out
+- Stock Transfers
+- Sales Returns
+- Purchase Returns
+- Damaged Stock
+- Physical Stock Count
+- Stock Adjustments
+- Reorder Levels
+
+Inventory reports:
+
+- Stock Summary
+- Stock Valuation
+- Stock Item Report
+- Stock Group Summary
+- Stock Movement
+- Stock Ageing
+- Warehouse Report
+- Inventory Turnover
+- Product Profit
+
+Implement accurate FIFO inventory costing.
+
+Maintain cost layers and synchronize stock movements with financial journal entries.
+
+Never change inventory quantities from generic financial entries unless actual items and quantities are identified.
+
+---
+
+# 16. COMPLETE FINANCIAL REPORTS
+
+Create working reports:
+
+1. Balance Sheet
+2. Profit & Loss Account
+3. Trading Account
+4. Trial Balance
+5. Day Book
+6. General Ledger
+7. Cash Book
+8. Bank Book
+9. Sales Register
+10. Purchase Register
+11. Receipt Register
+12. Payment Register
+13. Journal Register
+14. Contra Register
+15. Debit Note Register
+16. Credit Note Register
+17. Bills Receivable
+18. Bills Payable
+19. Customer Outstanding
+20. Supplier Outstanding
+21. Receivables Ageing
+22. Payables Ageing
+23. Overdue Payments
+24. Stock Summary
+25. Stock Valuation
+26. Stock Movement
+27. Stock Ageing
+28. Warehouse Summary
+29. Stock Item Analysis
+30. Cash Flow Statement
+31. Funds Flow Statement
+32. Working Capital Analysis
+33. Ratio Analysis
+34. Gross Profit Analysis
+35. Net Profit Analysis
+36. Expense Analysis
+37. GST Sales Register
+38. GST Purchase Register
+39. GST Liability Report
+40. Bank Reconciliation
+41. Cheque Register
+42. Voucher Statistics
+
+All reports must support appropriate:
+
+- Date Filters
+- Financial Year Selection
+- Monthly Views
+- Quarterly Views
+- Comparisons
+- Summary and Detail Views
+- Drill-Down
+- Search
+- Sorting
+- PDF Export
+- Excel Export
+- CSV Export
+- Printing
+
+All accounting totals must reconcile with posted journal entries.
+
+---
+
+# 17. COMPLETE EXCEL-LIKE SPREADSHEET
+
+Build an integrated spreadsheet module.
+
+Support:
+
+- Workbooks
+- Multiple Sheets
+- Rows
+- Columns
+- Cell References
+- Cell Formatting
+- Formulas
+- Tables
+- Sorting
+- Filtering
+- Charts
+- Data Validation
+- Protected Cells
+- Automatic Recalculation
+- Excel Import
+- Excel Export
+- CSV Import
+- CSV Export
+- Formula History
+
+Implement and test major function groups.
+
+## MATHEMATICS
+
+SUM, SUMIF, SUMIFS, SUMPRODUCT, MIN, MAX, AVERAGE, COUNT, COUNTA, COUNTIF, COUNTIFS, ROUND, ROUNDUP, ROUNDDOWN, ABS, MOD, POWER, SQRT, CEILING, FLOOR.
+
+## LOGIC
+
+IF, IFS, IFERROR, IFNA, AND, OR, NOT, SWITCH.
+
+## LOOKUP
+
+XLOOKUP, VLOOKUP, HLOOKUP, INDEX, MATCH, XMATCH, FILTER, SORT, UNIQUE.
+
+## TEXT
+
+LEFT, RIGHT, MID, LEN, TRIM, CONCAT, TEXT, FIND, SEARCH, SUBSTITUTE, UPPER, LOWER.
+
+## DATE
+
+TODAY, NOW, DATE, YEAR, MONTH, DAY, EDATE, EOMONTH, NETWORKDAYS, WORKDAY.
+
+## FINANCE
+
+PMT, PV, FV, NPV, IRR, XIRR, RATE.
+
+## STATISTICS
+
+STDEV, VAR, MEDIAN, MODE, LARGE, SMALL, RANK.
+
+Use a safe, tested formula parser and evaluation engine.
+
+Detect circular references, invalid references, unsupported functions, division by zero, and invalid input types.
+
+Do not claim complete Excel compatibility without compatibility testing.
+
+Spreadsheet edits must not bypass financial posting controls.
+
+---
+
+# 18. COMPLETE BUSINESS AND FINANCIAL MATH ENGINE
+
+Implement reliable formulas for:
+
+- Gross Profit
+- Gross Profit Margin
+- Net Profit
+- Net Profit Margin
+- Markup
+- Discount
+- Taxable Value
+- GST
+- COGS
+- FIFO Valuation
+- Inventory Turnover
+- Working Capital
+- Current Ratio
+- Quick Ratio
+- Debt-to-Equity
+- Receivables Turnover
+- Payables Turnover
+- Return on Investment
+- Break-even Point
+- Contribution Margin
+- Depreciation
+- Simple Interest
+- Compound Interest
+- EMI
+- Cash Flow
+- Budget Variance
+- Revenue Growth
+- Expense Growth
+- Financial Forecasting
+
+Define accounting policies and calculation methods explicitly.
+
+Use consistent formulas across spreadsheets, AI responses, dashboards, and reports.
+
+Handle missing inputs and zero denominators safely.
+
+---
+
+# 19. UNIVERSAL AI ACCOUNTANT
+
+Create an AI assistant available across the entire application.
+
+The AI should understand:
+
+- Current Company
+- Current Screen
+- Selected Customer
+- Selected Supplier
+- Selected Product
+- Selected Invoice
+- Selected Report
+- Date Range
+- Relevant Authorized Records
+
+Examples:
+
+"Show my profit this month."
+
+"How much GST is payable?"
+
+"Create an invoice."
+
+"Which customers have not paid?"
+
+"Which products are running low?"
+
+"Explain this balance sheet."
+
+"Why did my expenses increase?"
+
+The assistant must retrieve actual records using authorized backend services.
+
+It must not fabricate financial data.
+
+---
+
+# 20. MULTIMODAL AI ACCOUNTING
+
+Support:
+
+- Text Chat
+- Photos
+- Images
+- PDFs
+- Word Documents
+- Excel Files
+- CSV Files
+- Voice Messages
+- Audio Recordings
+- Supported Videos
+
+## COMMON WORKFLOW
+
+Input → Extract → Understand → Validate → Preview → Confirm → Post → Reconcile → Update Reports.
+
+## PHOTO BILL SCANNER
+
+Extract:
+
+- Supplier
+- Invoice Number
+- Date
+- Products
+- Quantities
+- Rates
+- Discounts
+- GST
+- Total
+
+Check for duplicates.
+
+Show an editable preview.
+
+Require confirmation before recording.
+
+## VOICE ACCOUNTANT
+
+Support Hindi, English, and Hinglish when supported by the transcription service.
+
+Prepare accounting previews from spoken requests.
+
+## VIDEO
+
+Support transcription, selected frame analysis, summaries, and document-related questions.
+
+Use background processing for large files.
+
+Never automatically post a financial transaction solely from uncertain media interpretation.
+
+---
+
+# 21. PRIVATE AI KNOWLEDGE AND CONTINUOUS IMPROVEMENT
+
+Create a private company knowledge base.
+
+Users may upload:
+
+- Business Policies
+- Product Catalogs
+- Price Lists
+- Supplier Lists
+- Accounting Instructions
+- Company Manuals
+- Training Documents
+- Approved Examples
+- Supporting Documents
+- Audio and Video Transcripts
+
+Use Retrieval-Augmented Generation (RAG).
+
+Provide source references where possible.
+
+## IMPROVEMENT THROUGH CORRECTIONS
+
+When a user corrects an AI recommendation:
+
+1. Save the original suggestion.
+2. Record the correction.
+3. Verify user authorization.
+4. Suggest a reusable company-specific rule.
+5. Ask for approval.
+6. Save the approved rule.
+7. Maintain version history.
+8. Reuse the rule in relevant situations.
+9. Allow rollback and deletion.
+
+Do not automatically retrain the base AI model.
+
+Do not share private company knowledge between tenants.
+
+Do not automatically change historical financial entries.
+
+---
+
+# 22. TEN-LAYER MISTAKE PREVENTION
+
+Implement ten validation layers.
+
+1. Input Validation.
+2. Duplicate Detection.
+3. Financial Calculation Verification.
+4. GST Verification.
+5. Inventory Verification.
+6. Double-Entry Balancing.
+7. Authorized User Confirmation.
+8. Atomic Database Posting.
+9. Financial Report Reconciliation.
+10. Audit Logging and Monitoring.
+
+Detect:
+
+- Duplicate Invoices
+- Duplicate Payments
+- Invalid GST Treatment
+- Incorrect Totals
+- Missing Data
+- Invalid Quantities
+- Unauthorized Access
+- Negative Stock When Prohibited
+- Unbalanced Journal Entries
+- Incorrect Account Mapping
+- Failed Database Transactions
+- Inconsistent Financial Reports
+
+Block critical errors.
+
+Explain the error in simple language.
+
+Allow authorized corrections.
+
+Never silently change accounting values.
+
+---
+
+# 23. SAFE ACCOUNTING ERROR CORRECTION
+
+When an error is found:
+
+- Locate the original transaction.
+- Show the incorrect value.
+- Explain the problem.
+- Prepare a correction or reversal.
+- Show the financial impact.
+- Require approval.
+- Post the correction.
+- Preserve audit history.
+- Update affected reports.
+- Run regression tests.
+
+Create a regression test for repeatable software bugs.
+
+Do not promise zero mistakes.
+
+Instead build verification, correction, monitoring, and prevention mechanisms.
+
+---
+
+# 24. BANKING AND PAYMENT RECONCILIATION
+
+Support:
+
+- Cash Accounts
+- Bank Accounts
+- Bank Transfers
+- Contra Entries
+- Bank Statement Import
+- Excel/CSV Import
+- Transaction Matching
+- Bank Reconciliation
+- Cheque Register
+- Payment Advice
+- Deposit Slips
+- Bank Charges
+- Interest Entries
+- Unmatched Transaction Review
+
+Do not initiate real bank payments unless an appropriate authorized integration is configured.
+
+---
+
+# 25. SMART SEARCH AND REMINDERS
+
+Universal search must cover authorized:
+
+- Customers
+- Suppliers
+- Products
+- Invoices
+- Ledgers
+- Vouchers
+- Payments
+- Documents
+- Reports
+
+Reminders:
+
+- Customer Payments Due
+- Supplier Payments Due
+- Overdue Invoices
+- Low Stock
+- Failed Document Processing
+- Duplicate Invoice Warnings
+- Accounting Validation Warnings
+- Subscription Renewals
+
+Provide configurable notification settings.
+
+---
+
+# 26. COMPLETE SAAS SUBSCRIPTION SYSTEM
+
+Create subscription plans:
+
+- FREE
+- STARTER
+- BUSINESS PRO
+- ACCOUNTANT
+- ENTERPRISE
+
+Allow administrators to configure plan prices and features.
+
+Support:
+
+- Monthly Subscriptions
+- Annual Subscriptions
+- Free Trials
+- Renewals
+- Upgrades
+- Downgrades
+- Cancellation
+- Expiration
+- Grace Periods
+- Promotional Codes
+- Discounts
+- Refunds
+- Usage-Based Billing
+- AI Credits
+- Additional Companies
+- Additional Staff Seats
+- Storage Upgrades
+
+Never silently charge users.
+
+Do not delete business data immediately when a subscription expires.
+
+Provide appropriate read-only access and export according to disclosed retention rules.
+
+---
+
+# 27. COMPLETE SAAS MONETIZATION
+
+Support revenue from:
+
+1. Monthly Subscriptions.
+2. Annual Subscriptions.
+3. Additional AI Credits.
+4. Extra Company Accounts.
+5. Additional Staff Seats.
+6. Premium Reports.
+7. Premium Spreadsheet Tools.
+8. Extra Document Storage.
+9. Accountant Plans.
+10. Enterprise Licensing.
+11. Setup Services.
+12. Training Services.
+13. Integration Services.
+14. White-Label Licensing.
+15. Premium Automation.
+16. Authorized Professional Referrals.
+
+Prices must remain configurable.
+
+Track costs and margins.
+
+Do not sell customer financial records.
+
+---
+
+# 28. SUBSCRIPTION PAYMENT PROCESSING
+
+Integrate an appropriate authorized payment provider.
+
+Where supported, include:
+
+- UPI
+- Cards
+- Net Banking
+- Recurring Payments
+- Payment Links
+
+Implement:
+
+- Secure Checkout
+- Payment Verification
+- Payment History
+- Failed Payments
+- Refunds
+- Subscription Invoices
+- Webhook Verification
+- Idempotent Payment Events
+- Subscription Reconciliation
+
+Never store raw card information.
+
+Do not activate subscriptions based only on unverified browser-side messages.
+
+Use payment-provider testing environments before production.
+
+---
+
+# 29. CUSTOMER SUBSCRIPTION DASHBOARD
+
+Show:
+
+- Current Plan
+- Subscription Status
+- Plan Price
+- Billing Frequency
+- Available Features
+- Usage Remaining
+- AI Credits Remaining
+- Storage Usage
+- Next Billing Date
+- Renewal Status
+- Payment History
+- Download Invoices
+- Upgrade
+- Downgrade
+- Cancel Subscription
+- Support
+
+Ensure users understand pricing and cancellation conditions.
+
+---
+
+# 30. PLATFORM OWNER ADMIN DASHBOARD
+
+Create a separate, secure administration panel for APNA BUSINESS platform management.
+
+Admin features:
+
+- Registered Users
+- Active Users
+- Free Users
+- Paid Users
+- Trial Users
+- Subscription Plans
+- Subscription Revenue
+- Refunds
+- Failed Payments
+- AI Credit Usage
+- Hosting Costs
+- Database Costs
+- AI API Costs
+- System Health
+- Customer Support Status
+- Coupon Management
+- Product Announcements
+
+Use strict permissions.
+
+Do not allow unrestricted access to private customer accounting data.
+
+---
+
+# 31. COMPLETE SAAS REVENUE ANALYTICS
+
+Implement:
+
+- MRR
+- ARR
+- ARPU
+- Customer Churn
+- Revenue Churn
+- Customer Acquisition Cost
+- Customer Lifetime Value
+- Gross Margin
+- Net Profit Margin
+- Monthly Growth
+- Annual Growth
+- Renewal Rate
+- Customer Payback
+- AI Cost per Request
+- AI Cost per Customer
+- Contribution Margin
+- Break-even Customer Count
+
+Distinguish:
+
+- Cash Collected
+- Recognized Revenue
+- Deferred Revenue
+- Taxes Collected
+- Recurring Revenue
+- One-Time Revenue
+- Refunds
+- Expenses
+- Profit
+
+Connect subscription accounting to a separate platform-owner ledger.
+
+Never combine platform revenue with a customer's own business revenue.
+
+---
+
+# 32. CUSTOMER BUSINESS REVENUE
+
+Every business using APNA BUSINESS must be able to track:
+
+- Sales Revenue
+- Service Revenue
+- Other Income
+- Recurring Invoice Revenue
+- Revenue by Customer
+- Revenue by Product
+- Revenue by Branch
+- Revenue by Period
+- Refunds
+- Outstanding Invoices
+- Cash Collections
+- Revenue Growth
+- Revenue Forecasts
+
+Support recurring invoicing for service providers when enabled.
+
+Use the central double-entry accounting system.
+
+---
+
+# 33. AI COST CONTROL
+
+Track:
+
+- Chat Requests
+- OCR Requests
+- Documents Processed
+- Audio Processing
+- Video Processing
+- Cloud Storage
+- Database Costs
+- External API Costs
+- Hosting Costs
+
+Implement:
+
+- AI Usage Budgets
+- Rate Limits
+- Plan Quotas
+- Credit Tracking
+- Cost Alerts
+- Optional Extra Credits
+- Abuse Prevention
+
+Avoid unexpected third-party service bills.
+
+If an external integration is unavailable, identify it clearly instead of pretending it works.
+
+---
+
+# 34. COMPLETE SECURITY REQUIREMENTS
+
+Implement:
+
+- Secure Authentication
+- Role-Based Access Control
+- Tenant Isolation
+- Protected Backend APIs
+- Encrypted Connections
+- Secure Upload Validation
+- Safe Document Storage
+- Session Management
+- Rate Limiting
+- Audit Logging
+- Financial Period Locking
+- Database Backups
+- Restore Testing
+- Secrets Management
+- Payment Webhook Verification
+- Authorized Data Exports
+- Data Retention Controls
+
+Protect against:
+
+- Cross-Company Data Leaks
+- Unauthorized Transactions
+- Duplicate Posting
+- Malicious Uploads
+- Spreadsheet Formula Injection
+- Prompt Injection in Uploaded Documents
+- Insecure Administrative Access
+
+Treat all uploaded files and AI outputs as untrusted until validated.
+
+---
+
+# 35. FAST AND SMOOTH PERFORMANCE
+
+Implement:
+
+- Autosaved Drafts
+- Safe Retries
+- Efficient Database Indexes
+- Fast Search
+- Background Processing
+- Upload Progress
+- Report Pagination
+- Optimized Queries
+- Correct Cache Invalidation
+- Mobile-Friendly Navigation
+- Error Monitoring
+- Connection Recovery
+- Backup and Recovery
+- Concurrent Transaction Protection
+
+Do not display stale financial values as current.
+
+Offline draft saving may be supported, but official financial posting must reconcile safely with the server.
+
+---
+
+# 36. TECHNOLOGY AND PROJECT ARCHITECTURE
+
+Build a maintainable full-stack application.
+
+Prefer continuing with the original technology stack when appropriate.
+
+For a new project, a suitable stack may include:
+
+Frontend:
+- React
+- TypeScript
+- Vite or an appropriate framework
+- Tailwind CSS
+- Reusable UI Components
+
+Backend:
+- Node.js
+- TypeScript
+- Fastify or Express
+- Validated REST APIs
+
+Database:
+- PostgreSQL
+- Prisma or Drizzle ORM
+- Database Migrations
+- Transactional Posting
+
+AI:
+- Provider Adapter
+- Document Parsing
+- OCR Integration
+- Speech Transcription
+- RAG Knowledge Retrieval
+- Safe Tool Calling
+
+Background Processing:
+- Job Queue
+- Worker Processes
+- Retry Handling
+
+Other:
+- Secure Authentication
+- PDF Generation
+- Excel Import/Export
+- Automated Tests
+- Structured Logging
+
+Use reliable existing libraries where appropriate.
+
+Do not replace tested accounting services with AI-generated calculations.
+
+Use environment variables for API keys and secrets.
+
+Provide development alternatives when paid services are unavailable.
+
+---
+
+# 37. MANDATORY COMPLETE SOURCE CODE STRUCTURE
+
+This is a full source-code project.
+
+Do not deliver only screenshots, a homepage, or a partial application.
+
+Create all necessary frontend, backend, database, configuration, shared libraries, tests, and documentation files.
+
+Use a monorepo or another well-organized structure appropriate to the actual technology stack.
+
+A recommended structure is:
+
+APNA-BUSINESS/
+
+  README.md
+
+  LICENSE (only if a suitable license is authorized)
+
+  package.json
+
+  package-lock.json (or the selected package manager's lockfile)
+
+  .gitignore
+
+  .env.example
+
+  .editorconfig
+
+  tsconfig.json
+
+  workspace configuration files as required
+
+  apps/
+
+    web/
+
+      package.json
+
+      index.html
+
+      src/
+
+        main.tsx
+
+        App.tsx
+
+        pages/
+
+          Landing
+
+          Login
+
+          Register
+
+          Dashboard
+
+          Companies
+
+          AIAccountant
+
+          Billing
+
+          Sales
+
+          Purchases
+
+          Inventory
+
+          Customers
+
+          Suppliers
+
+          Banking
+
+          GST
+
+          Ledgers
+
+          Vouchers
+
+          Reports
+
+          Spreadsheet
+
+          Documents
+
+          Knowledge
+
+          Subscription
+
+          Profile
+
+          Settings
+
+          Admin
+
+        components/
+
+          Layout
+
+          Header
+
+          Sidebar
+
+          Forms
+
+          Tables
+
+          Charts
+
+          Invoice
+
+          AIChat
+
+          FileUploader
+
+          ConfirmationDialog
+
+          ErrorDisplay
+
+        hooks/
+
+        services/
+
+        contexts/
+
+        styles/
+
+        utilities/
+
+    api/
+
+      package.json
+
+      src/
+
+        server
+
+        config
+
+        middleware
+
+        routes/
+
+          authentication
+
+          users
+
+          companies
+
+          accounting
+
+          ledgers
+
+          vouchers
+
+          sales
+
+          purchases
+
+          gst
+
+          inventory
+
+          banking
+
+          reports
+
+          spreadsheets
+
+          ai
+
+          documents
+
+          knowledge
+
+          subscriptions
+
+          payments
+
+          revenue
+
+          notifications
+
+          admin
+
+        controllers/
+
+        services/
+
+        repositories/
+
+        validators/
+
+        integrations/
+
+        jobs/
+
+        utilities/
+
+    worker/
+
+      src/
+
+        document-processing
+
+        notifications
+
+        reconciliation
+
+        background-jobs
+
+    mobile/
+
+      Android project and build configuration when implemented
+
+    desktop/
+
+      Windows packaging and build configuration when implemented
+
+  packages/
+
+    accounting-engine/
+
+    financial-math/
+
+    gst-engine/
+
+    inventory-engine/
+
+    spreadsheet-engine/
+
+    ai-services/
+
+    shared-types/
+
+    shared-validation/
+
+    user-interface/
+
+  database/
+
+    schema/
+
+    migrations/
+
+    seeds/
+
+    test-fixtures/
+
+  tests/
+
+    unit/
+
+    integration/
+
+    accounting/
+
+    gst/
+
+    inventory/
+
+    spreadsheet/
+
+    ai/
+
+    subscriptions/
+
+    payments/
+
+    security/
+
+    end-to-end/
+
+    regression/
+
+  scripts/
+
+    setup/
+
+    verification/
+
+    backup/
+
+    export/
+
+  docs/
+
+    architecture/
+
+    database/
+
+    accounting-rules/
+
+    formulas/
+
+    api/
+
+    security/
+
+    testing/
+
+    deployment/
+
+    user-guide/
+
+  public/
+
+    logo/
+
+    icons/
+
+    images/
+
+    fonts-config/
+
+    manifests/
+
+  deployment/
+
+    platform-configuration/
+
+    environment-examples/
+
+    database-setup/
+
+    backup-instructions/
+
+The above structure is a responsibility checklist, not a demand to generate empty placeholder files or directories.
+
+Choose the correct filenames and extensions for the selected framework.
+
+If using an existing codebase, preserve its valid structure and add only the required missing modules.
+
+Every imported module must exist.
+
+Every declared entrypoint must be implemented.
+
+Every required configuration file must be included.
+
+Every database migration must be reproducible.
+
+Every required runtime dependency must be listed.
+
+Do not mark features complete using empty files or placeholder implementations.
+
+---
+
+# 38. WEB APPLICATION DELIVERY
+
+Build a working responsive Web App.
+
+Requirements:
+
+- Working Frontend
+- Working Backend
+- Database Connectivity
+- Secure Login
+- Complete Navigation
+- Persistent Accountingठीक है! ✅ मैं आपके बताए हुए सभी Features, Tally Prime के Screenshots, दोनों पुराने Master Prompts और नए Color Combination को ध्यान में रखकर **एक नया, पूरा और अंतिम Master Prompt** तैयार कर रहा हूँ।
+
+इसमें तीन बातें सबसे जरूरी रहेंगी:
+
+- **नाम:** हर जगह केवल **APNA BUSINESS** — CAPITAL LETTERS में, बिना Version Number।
+- **Design:** आपके Replit Screenshot जैसा Cream Background, Dark Green Buttons और Gold Logo।
+- **Development:** पूरा Working Source Code, Frontend, Backend, Database, AI, GST, Excel, Accounting, Subscriptions, Tests, Android APK, Windows EXE और एक ZIP में सभी जरूरी Files।
+
+इस बार Prompt में खास निर्देश रहेगा कि **एक भी जरूरी Source File, Import, Database Migration या Configuration छूटने पर Project को Complete न माना जाए।**
+
+## APNA BUSINESS — FULL & FINAL MASTER PROMPT
+
+पूरा Prompt नीचे Copy-Paste कर सकते हैं। इसे Replit या किसी दूसरे AI App Builder में इस्तेमाल करें।
+
+<WritingBlock id="84571" variant="document"># APNA BUSINESS — COMPLETE FINAL MASTER BUILD PROMPT
+
+## BUILD A COMPLETE AI-POWERED ACCOUNTING, BUSINESS MANAGEMENT, SPREADSHEET AND SAAS SOFTWARE PLATFORM
+
+You are a team of expert full-stack engineers, professional Indian accountants, AI engineers, financial mathematics specialists, database architects, cybersecurity engineers, UX designers, Android developers, Windows desktop developers, and software quality assurance engineers.
+
+Your mission is to build my complete application named:
+
+# APNA BUSINESS
+
+Official Brand Name: APNA BUSINESS
+
+Official Tagline: YOUR PRIVATE AI ACCOUNTANT
+
+Primary Market: India
+
+Target Users: Shopkeepers, retailers, wholesalers, small businesses, service providers, accountants, CAs, growing businesses, and entrepreneurs.
+
+## CRITICAL NAMING RULE
+
+The public application name must be written exactly as:
+
+APNA BUSINESS
+
+Use CAPITAL LETTERS everywhere.
+
+Never append a version number to the application name.
+
+Do not display names such as "Apna Business 6.0" or "My Business AI Accountant" in the finished public-facing brand.
+
+Use APNA BUSINESS on the website, login pages, dashboards, logo, invoices, mobile app, Windows application, and subscription pages.
+
+Internal development version numbers are permitted.
+
+---
+
+# 1. EXISTING PROJECT — INSPECT BEFORE BUILDING
+
+Original Replit Project:
+
+https://replit.com/@princebankstory/My-Business-AI-Accountant
+
+Previously Published Website:
+
+https://my-business-ai-accountant--princebankstory.replit.app
+
+The project may already contain working accounting, inventory, billing, AI, and website features.
+
+Before changing anything:
+
+1. Inspect the original repository if authorized access is available.
+2. Read the complete project structure.
+3. Identify all existing source files.
+4. Examine the frontend architecture.
+5. Examine the backend architecture.
+6. Examine database schemas and migrations.
+7. Examine authentication.
+8. Examine accounting logic.
+9. Examine tax calculations.
+10. Examine stock valuation.
+11. Examine AI integrations.
+12. Examine payment and subscription integrations.
+13. Examine tests.
+14. Examine deployment configuration.
+15. Check existing application behavior.
+
+Prepare a feature audit that classifies everything as:
+
+- COMPLETE AND TESTED
+- IMPLEMENTED BUT UNTESTED
+- PARTIALLY IMPLEMENTED
+- BROKEN
+- NOT STARTED
+- BLOCKED BY EXTERNAL DEPENDENCY
+
+Preserve existing working code and authentic business data.
+
+Do not rebuild unnecessarily.
+
+Do not overwrite production databases.
+
+Create backups before destructive or structural modifications.
+
+If the original source cannot be accessed, explicitly state that and create a new project from these specifications.
+
+Never pretend that a published web page provides access to private source files.
+
+---
+
+# 2. FINAL PRODUCT VISION
+
+Build APNA BUSINESS as a complete AI-powered business operating system.
+
+The application must combine:
+
+- Tally-like Professional Accounting
+- Extremely Easy Billing
+- GST Accounting
+- Purchases and Sales
+- Customer and Supplier Management
+- Inventory Management
+- FIFO Stock Valuation
+- Banking and Reconciliation
+- Balance Sheet
+- Profit and Loss
+- Trial Balance
+- Cash Flow
+- Funds Flow
+- Financial Ratios
+- Excel-like Spreadsheet
+- Financial and Mathematical Formulas
+- AI Accountant Chat
+- AI Everywhere
+- Photo-Based Accounting
+- Voice-Based Accounting
+- Audio Processing
+- PDF and Document Processing
+- Supported Video Understanding
+- Company Knowledge Base
+- Approved AI Continuous Improvement
+- Error Detection
+- Safe Error Correction
+- Multi-Company Management
+- User and Staff Permissions
+- Subscription Management
+- Revenue Tracking
+- Payment Processing
+- SaaS Admin Dashboard
+- AI Usage and Cost Monitoring
+- Business Growth Features
+- Web Application
+- Android APK
+- Windows Desktop EXE
+- Complete Source Code
+- Complete ZIP Export
+
+Every major feature must have genuine functionality.
+
+Never replace missing functionality with fake accounting data or non-working buttons.
+
+---
+
+# 3. ONE UNIFIED INTERFACE — NO MODE SWITCHING
+
+The app must be extremely easy to use.
+
+Do not require users to select between "AI Mode" and "Professional Accounting Mode."
+
+Both experiences must work naturally together.
+
+A user should be able to:
+
+- Type a transaction.
+- Speak a transaction.
+- Upload a bill photo.
+- Upload a PDF.
+- Create an invoice manually.
+- Open a professional accounting voucher.
+
+All these methods must use the same trusted accounting engine.
+
+A beginner should not need to understand journal entries or debit and credit.
+
+A professional accountant must still be able to inspect every journal and ledger.
+
+The main goal is:
+
+MINIMUM CLICKS + MINIMUM TYPING + ACCURATE ACCOUNTING.
+
+Keep advanced options available without cluttering everyday screens.
+
+---
+
+# 4. FINAL COLOR COMBINATION AND BRAND DESIGN
+
+Use the provided APNA BUSINESS Replit website screenshot as the visual reference.
+
+The reference is the application preview, not the surrounding Replit editor.
+
+## REQUIRED COLORS
+
+Primary Background: Warm Cream — #F7F5EF
+
+Primary Dark Green: #234A40
+
+Primary Button Green: #337561
+
+Gold Logo Accent: #C9A75F
+
+Primary Text: Dark Charcoal — #253238
+
+White Cards: #FFFFFF
+
+Light Borders: #E4E4DD
+
+Sage Background: #E8EFE9
+
+Use these as the initial design tokens. Adjust minor shades for contrast and consistency while preserving the same overall appearance.
+
+## DESIGN REQUIREMENTS
+
+- Premium SaaS Appearance
+- Cream Background
+- Dark Green Navigation
+- Gold Logo
+- Professional Typography
+- Clean Dashboard
+- Soft Card Borders
+- Clear Buttons
+- Readable Tables
+- Consistent Spacing
+- Original Icons
+- Elegant Charts
+- Smooth Navigation
+- Responsive Layout
+- Light Mode by Default
+- Optional Matching Dark Mode
+- Accessible Text Contrast
+
+Maintain consistent branding across every screen.
+
+All public screens must display the APNA BUSINESS name in capital letters.
+
+---
+
+# 5. MAIN APPLICATION MENU
+
+Implement the following navigation.
+
+## DAILY BUSINESS
+
+- Dashboard
+- AI Accountant
+- Create Invoice
+- Sales
+- Purchases
+- Expenses
+- Payments
+- Customers
+- Suppliers
+- Inventory
+
+## PROFESSIONAL ACCOUNTING
+
+- Accounting Masters
+- Chart of Accounts
+- Ledgers
+- Vouchers
+- GST
+- Banking
+- Financial Reports
+- Reconciliation
+
+## INTELLIGENT BUSINESS TOOLS
+
+- Smart Spreadsheet
+- Documents
+- AI Knowledge
+- AI Business Analysis
+- Notifications
+- Universal Search
+
+## BUSINESS SETTINGS
+
+- Company Management
+- Staff Management
+- Subscription
+- Billing History
+- Profile
+- Settings
+
+Advanced features may be organized within submenus.
+
+Every visible menu item must work or be clearly identified as unavailable.
+
+---
+
+# 6. SMART DASHBOARD
+
+Build a customizable business dashboard.
+
+## SUMMARY CARDS
+
+- Today's Sales
+- Today's Expenses
+- Total Purchases
+- Total Revenue
+- Gross Profit
+- Net Profit
+- Cash Balance
+- Bank Balance
+- Customer Receivables
+- Supplier Payables
+- Current Stock
+- Inventory Value
+- GST Payable
+- Outstanding Invoices
+
+## DASHBOARD WIDGETS
+
+- Sales Trend
+- Purchase Trend
+- Cash Inflow and Outflow
+- Trading Details
+- Assets and Liabilities
+- Receivables and Payables
+- Accounting Ratios
+- Cash and Bank Accounts
+- Top Groups and Ledgers
+- Expense Analysis
+- Inventory Performance
+- Recent Transactions
+
+## CUSTOMIZATION
+
+- Add Widget
+- Remove Widget
+- Expand Widget
+- Resize Widget
+- Configure Widget
+- Change Date Range
+- Switch Company
+- Save Dashboard Layout
+
+All dashboard figures must come from the official accounting database.
+
+---
+
+# 7. SECURE LOGIN AND USER PROFILES
+
+Implement:
+
+- User Registration
+- Email Login
+- Email Verification
+- Secure Password Login
+- Forgot Password
+- Reset Password
+- Logout
+- Profile Photo
+- Profile Settings
+- Optional Google Sign-In
+- Session Management
+- Optional Two-Factor Authentication
+
+After login display:
+
+- User Name
+- Registered Email
+- Active Company
+- Company Role
+- Current Subscription
+- Account Settings
+
+Never reveal passwords.
+
+Use secure password hashing.
+
+## USER ROLES
+
+- Business Owner
+- Accountant
+- Manager
+- Sales Employee
+- Inventory Employee
+- Data Entry Employee
+- Read-Only Viewer
+
+Implement role-based permissions on the server.
+
+---
+
+# 8. MULTI-COMPANY MANAGEMENT
+
+Support:
+
+- Create Company
+- Alter Company
+- Select Company
+- Change Company
+- Close Company
+- Company List
+- Company Settings
+- Financial Year
+- Books Beginning Date
+- Business Address
+- GSTIN
+- PAN
+- Company Logo
+- Registered Email
+- Business Phone
+- Accounting Currency
+- Company Backup
+- Company Restore
+
+Every company must have separate accounting records, products, invoices, customers, suppliers, documents, and AI knowledge.
+
+Changing companies must update the dashboard and reports to the selected company's authorized data.
+
+---
+
+# 9. ACCOUNTING MASTERS
+
+Implement:
+
+- Account Groups
+- Ledgers
+- Chart of Accounts
+- Cost Centers
+- Voucher Types
+- Budgets
+- Currency Settings
+- Opening Balances
+
+Support account groups including:
+
+Capital, Current Assets, Current Liabilities, Cash, Bank, Fixed Assets, Loans, Investments, Debtors, Creditors, Sales, Purchases, Direct Income, Indirect Income, Direct Expenses, Indirect Expenses, Duties and Taxes, Provisions, and Reserves.
+
+Allow authorized creation, editing, searching, and reporting.
+
+AI may suggest new ledgers.
+
+Do not automatically create duplicate customer or supplier ledgers.
+
+---
+
+# 10. COMPLETE VOUCHER SYSTEM
+
+Implement:
+
+- F4 Contra
+- F5 Payment
+- F6 Receipt
+- F7 Journal
+- F8 Sales
+- F9 Purchase
+- F10 Other Vouchers
+- Debit Notes
+- Credit Notes
+- Sales Returns
+- Purchase Returns
+- Stock Transfers
+- Stock Adjustments
+
+Each voucher must include the appropriate:
+
+- Unique ID
+- Voucher Number
+- Date
+- Company
+- Voucher Type
+- Ledger Entries
+- Debit Amount
+- Credit Amount
+- Narration
+- Party Details
+- Linked Invoice
+- Supporting Document
+- Created By
+- Approval Status
+- Audit History
+
+Support draft, preview, validation, confirmation, posting, reversal, export, search, and printing.
+
+Never silently delete posted financial history.
+
+---
+
+# 11. CENTRAL DOUBLE-ENTRY ACCOUNTING ENGINE
+
+This is the most important technical system.
+
+Use one deterministic accounting engine for all financial records.
+
+Mandatory equations:
+
+Total Debits = Total Credits.
+
+Assets = Liabilities + Equity.
+
+The accounting engine must handle:
+
+- Journal Entries
+- General Ledger
+- Trial Balance
+- Cash Book
+- Bank Book
+- Accounts Receivable
+- Accounts Payable
+- Opening Balances
+- Period Closing
+- Reversals
+- Audit History
+- Reconciliation
+
+Use decimal-safe money calculations.
+
+Store accounting policies explicitly.
+
+Use atomic database transactions.
+
+Use idempotency keys.
+
+Prevent duplicate entries from retries and repeated requests.
+
+Never allow AI-generated guesses to determine official accounting balances.
+
+---
+
+# 12. SALES AND GST INVOICING
+
+Create easy professional invoices.
+
+Required invoice details:
+
+- Seller Name
+- Seller Address
+- Seller GSTIN
+- Buyer Name
+- Buyer Address
+- Buyer GSTIN where applicable
+- Invoice Number
+- Invoice Date
+- Place of Supply
+- Product Name
+- HSN/SAC
+- Quantity
+- Rate
+- Discount
+- Taxable Value
+- CGST
+- SGST
+- IGST
+- Applicable Cess
+- Final Total
+- Payment Method
+- Payment Status
+- Due Date
+
+Support:
+
+- Cash Invoices
+- Credit Invoices
+- Partial Payments
+- Sales Returns
+- Credit Notes
+- Refunds
+- Recurring Invoices
+- PDF Download
+- Print
+
+Use simple forms with automatic calculations.
+
+Require confirmation before official posting.
+
+---
+
+# 13. PURCHASE MANAGEMENT
+
+Implement:
+
+- Purchase Invoice
+- Supplier Bills
+- Purchase Orders
+- Purchase Returns
+- Supplier Payments
+- Cash Purchases
+- Credit Purchases
+- Purchase GST
+- Supplier Outstanding
+- Purchase Register
+- Stock Receipt
+
+Purchases must update the relevant accounts, inventory, and reports consistently.
+
+---
+
+# 14. COMPLETE INDIAN GST ENGINE
+
+Support:
+
+- GSTIN
+- HSN/SAC
+- CGST
+- SGST
+- IGST
+- Applicable Cess
+- GST Inclusive Pricing
+- GST Exclusive Pricing
+- Place of Supply
+- Applicable Exemptions
+- Input Tax Credit Tracking
+- Output GST
+- GST Payable
+- GST Adjustments
+- Sales GST Register
+- Purchase GST Register
+- GSTR-1 Preparation
+- GSTR-3B Preparation
+
+Apply the applicable GST rules for the transaction date and circumstances.
+
+Use configurable and versioned tax rules.
+
+Do not assume all products have the same tax rate.
+
+Clearly flag uncertain cases.
+
+Do not claim successful government return filing without a verified filing integration.
+
+---
+
+# 15. COMPLETE INVENTORY MANAGEMENT
+
+Inventory Masters:
+
+- Stock Groups
+- Stock Categories
+- Stock Items
+- Units
+- Warehouses
+- Godowns
+- Opening Stock
+- Price Lists
+
+Operations:
+
+- Stock In
+- Stock Out
+- Purchases
+- Sales
+- Returns
+- Stock Transfers
+- Damaged Stock
+- Physical Stock Verification
+- Stock Adjustments
+- Reorder Levels
+
+Reports:
+
+- Stock Summary
+- Stock Valuation
+- Stock Movement
+- Stock Ageing
+- Item-Wise Stock
+- Warehouse Summary
+- Stock Group Summary
+- Inventory Turnover
+- Product Profit
+
+Implement FIFO cost layers and accurate cost of goods sold.
+
+Never double-count inventory expenses.
+
+---
+
+# 16. COMPLETE FINANCIAL REPORTS
+
+Implement these working reports:
+
+1. Balance Sheet
+2. Profit & Loss
+3. Trading Account
+4. Trial Balance
+5. Day Book
+6. General Ledger
+7. Cash Book
+8. Bank Book
+9. Sales Register
+10. Purchase Register
+11. Receipt Register
+12. Payment Register
+13. Journal Register
+14. Contra Register
+15. Debit Note Register
+16. Credit Note Register
+17. Bills Receivable
+18. Bills Payable
+19. Customer Outstanding
+20. Supplier Outstanding
+21. Receivables Ageing
+22. Payables Ageing
+23. Overdue Payments
+24. Stock Summary
+25. Stock Valuation
+26. Stock Movement
+27. Stock Ageing
+28. Warehouse Summary
+29. Item-Wise Stock
+30. Cash Flow
+31. Funds Flow
+32. Working Capital
+33. Ratio Analysis
+34. Gross Profit Analysis
+35. Net Profit Analysis
+36. Expense Analysis
+37. GST Sales Register
+38. GST Purchase Register
+39. GST Liability Report
+40. Bank Reconciliation
+41. Cheque Register
+42. Voucher Statistics
+
+Provide appropriate:
+
+- Date Range Filters
+- Monthly View
+- Quarterly View
+- Financial Year View
+- Summary View
+- Detailed View
+- Drill-Down
+- Search
+- Sort
+- Excel Export
+- CSV Export
+- PDF Export
+- Printing
+
+All reports must reconcile with actual journal entries.
+
+---
+
+# 17. EXCEL-LIKE SMART SPREADSHEET
+
+Create integrated workbooks and spreadsheets.
+
+Support:
+
+- Multiple Sheets
+- Rows and Columns
+- Cell References
+- Formulas
+- Tables
+- Sorting
+- Filtering
+- Formatting
+- Data Validation
+- Charts
+- Protected Cells
+- Auto Recalculation
+- Excel Import
+- Excel Export
+- CSV Import
+- CSV Export
+- Formula History
+
+Implement and test these formula families.
+
+Mathematics:
+
+SUM, SUMIF, SUMIFS, SUMPRODUCT, MIN, MAX, AVERAGE, COUNT, COUNTA, COUNTIF, COUNTIFS, ABS, ROUND, ROUNDUP, ROUNDDOWN, MOD, POWER, SQRT, CEILING, FLOOR.
+
+Logical:
+
+IF, IFS, IFERROR, IFNA, AND, OR, NOT, SWITCH.
+
+Lookup:
+
+XLOOKUP, VLOOKUP, HLOOKUP, INDEX, MATCH, XMATCH, FILTER, SORT, UNIQUE.
+
+Text:
+
+LEFT, RIGHT, MID, LEN, TRIM, CONCAT, TEXT, FIND, SEARCH, SUBSTITUTE, UPPER, LOWER.
+
+Date:
+
+TODAY, NOW, DATE, YEAR, MONTH, DAY, EDATE, EOMONTH, NETWORKDAYS, WORKDAY.
+
+Financial:
+
+PMT, PV, FV, NPV, IRR, XIRR, RATE.
+
+Statistical:
+
+STDEV, VAR, MEDIAN, MODE, LARGE, SMALL, RANK.
+
+Use a safe formula engine.
+
+Do not claim full Excel compatibility before successful compatibility tests.
+
+Spreadsheet data must not directly bypass accounting controls.
+
+---
+
+# 18. BUSINESS MATHEMATICS AND FINANCIAL LOGIC
+
+Implement tested calculations for:
+
+- Gross Profit
+- Gross Profit Margin
+- Net Profit
+- Net Profit Margin
+- Markup
+- Discount
+- Taxable Value
+- GST
+- Cost of Goods Sold
+- FIFO Inventory Cost
+- Inventory Turnover
+- Working Capital
+- Current Ratio
+- Quick Ratio
+- Debt-to-Equity
+- Return on Investment
+- Receivables Turnover
+- Payables Turnover
+- Break-even Point
+- Contribution Margin
+- Depreciation
+- Simple Interest
+- Compound Interest
+- EMI
+- Cash Flow
+- Budget Variance
+- Sales Growth
+- Expense Growth
+- Revenue Forecasting
+
+Show formulas and source values when requested.
+
+Handle rounding, missing values, and zero denominators properly.
+
+---
+
+# 19. AI EVERYWHERE
+
+Create a universal AI assistant accessible throughout the application.
+
+It must understand the current company, screen, product, invoice, customer, supplier, report, and date range according to the user's permissions.
+
+Examples:
+
+On Inventory:
+
+"Which product is running low?"
+
+On Balance Sheet:
+
+"Explain my liabilities."
+
+On GST:
+
+"How was this amount calculated?"
+
+On Billing:
+
+"Create an invoice for this customer."
+
+On Spreadsheet:
+
+"Explain this formula."
+
+AI must retrieve verified records rather than inventing financial amounts.
+
+---
+
+# 20. MULTIMODAL AI ACCOUNTING
+
+Support:
+
+- Text
+- Photos
+- Images
+- PDF Documents
+- Word Documents
+- Excel Files
+- CSV Files
+- Audio
+- Voice
+- Supported Video
+
+Common workflow:
+
+INPUT → EXTRACT → UNDERSTAND → VALIDATE → PREVIEW → CONFIRM → POST → RECONCILE → UPDATE REPORTS
+
+For invoice photos:
+
+Extract supplier, date, number, products, quantities, rates, discounts, taxes, and total.
+
+Verify the document.
+
+Check duplicates.
+
+Show editable preview.
+
+Require confirmation.
+
+For voice:
+
+Transcribe Hindi, English, or Hinglish where supported.
+
+Ask about missing information.
+
+For video:
+
+Transcribe audio, analyze supported frames, summarize, and answer document-related questions.
+
+Never automatically post uncertain media information as an accounting transaction.
+
+---
+
+# 21. PRIVATE AI KNOWLEDGE AND CONTINUOUS IMPROVEMENT
+
+Create a private knowledge base for every company.
+
+Accept:
+
+- Product Catalogs
+- Price Lists
+- Supplier Lists
+- Business Policies
+- Accounting Instructions
+- Company Manuals
+- Training Documents
+- Approved Examples
+- Documents
+- Audio and Video Transcripts
+
+Use Retrieval-Augmented Generation.
+
+When users correct AI recommendations:
+
+1. Save the original suggestion.
+2. Save the correction.
+3. Check authorization.
+4. Suggest a reusable rule.
+5. Obtain approval.
+6. Version the rule.
+7. Reuse the approved rule.
+8. Test for conflicts.
+9. Allow rollback.
+
+Do not automatically retrain the underlying AI model.
+
+Do not mix company knowledge.
+
+Do not change historical financial records without approved accounting corrections.
+
+---
+
+# 22. TEN-LAYER ERROR PREVENTION
+
+Implement:
+
+1. Input Validation
+2. Duplicate Detection
+3. Calculation Verification
+4. GST Validation
+5. Inventory Validation
+6. Double-Entry Validation
+7. User Confirmation
+8. Atomic Posting
+9. Financial Reconciliation
+10. Audit Monitoring
+
+Block invalid posting.
+
+Explain mistakes in simple language.
+
+Never silently modify financial amounts.
+
+For corrections, preserve the audit trail and run regression tests.
+
+Absolute zero-error guarantees are not acceptable claims.
+
+---
+
+# 23. BANKING AND RECONCILIATION
+
+Implement:
+
+- Bank Accounts
+- Cash Accounts
+- Bank Transfers
+- Contra Entries
+- Bank Statement Import
+- Excel and CSV Import
+- Transaction Matching
+- Bank Reconciliation
+- Cheque Register
+- Payment Advice
+- Deposit Slips
+- Bank Charges
+- Interest Entries
+- Unmatched Transactions
+
+Do not execute real bank payments without authorized integration.
+
+---
+
+# 24. UNIVERSAL SEARCH AND REMINDERS
+
+Search authorized:
+
+- Customers
+- Suppliers
+- Products
+- Invoices
+- Ledgers
+- Vouchers
+- Payments
+- Documents
+- Reports
+
+Reminders:
+
+- Customer Payment Due
+- Supplier Payment Due
+- Overdue Invoices
+- Low Stock
+- Validation Problems
+- Duplicate Bill Warnings
+- Failed Upload Processing
+- Subscription Renewal
+
+---
+
+# 25. COMPLETE SAAS SUBSCRIPTION SYSTEM
+
+Implement these plans:
+
+- FREE
+- STARTER
+- BUSINESS PRO
+- ACCOUNTANT
+- ENTERPRISE
+
+All prices and plan limits must be configurable.
+
+Support:
+
+- Monthly Subscriptions
+- Annual Subscriptions
+- Free Trials
+- Upgrades
+- Downgrades
+- Renewals
+- Cancellation
+- Expiration
+- Grace Period
+- Coupons
+- Discounts
+- Refunds
+- AI Credits
+- Extra Companies
+- Additional Staff Seats
+- Extra Storage
+
+Do not delete genuine customer business data immediately upon expiration.
+
+Provide appropriate retention and export controls.
+
+---
+
+# 26. SAAS REVENUE AND MONETIZATION
+
+The APNA BUSINESS software company should support these revenue sources:
+
+1. Monthly Subscriptions
+2. Annual Subscriptions
+3. Additional AI Credits
+4. Extra Company Accounts
+5. Additional Staff Seats
+6. Premium Reports
+7. Premium Spreadsheet Features
+8. Extra Cloud Storage
+9. Accountant Plans
+10. Enterprise Licensing
+11. Onboarding Services
+12. Staff Training
+13. Integration Services
+14. White-Label Licensing
+15. Premium Automations
+16. Authorized Professional Referrals
+
+Never sell private financial data.
+
+Keep revenue models transparent.
+
+---
+
+# 27. SUBSCRIPTION PAYMENTS
+
+Use an authorized payment provider.
+
+Support relevant available payment methods such as:
+
+- UPI
+- Cards
+- Net Banking
+- Supported Recurring Payments
+- Payment Links
+
+Implement:
+
+- Secure Checkout
+- Payment Verification
+- Payment History
+- Failed Payments
+- Refunds
+- Invoices
+- Signed Webhooks
+- Duplicate Event Protection
+- Subscription Reconciliation
+
+Never store raw card details.
+
+Do not simulate real successful payments.
+
+Test in the provider's sandbox before live billing.
+
+---
+
+# 28. CUSTOMER SUBSCRIPTION PAGE
+
+Display:
+
+- Current Plan
+- Plan Price
+- Billing Frequency
+- Included Features
+- AI Credits
+- Usage Remaining
+- Storage Usage
+- Next Billing Date
+- Renewal Status
+- Payment History
+- Upgrade
+- Downgrade
+- Cancel Subscription
+- Download Invoice
+- Support
+
+Keep cancellation and pricing transparent.
+
+---
+
+# 29. PLATFORM OWNER ADMIN PANEL
+
+Create a completely separate admin area for APNA BUSINESS's software business.
+
+Display:
+
+- Registered Users
+- Free Users
+- Paid Users
+- Trial Users
+- Active Subscriptions
+- Revenue by Plan
+- AI Credits Revenue
+- Add-On Revenue
+- Refunds
+- Failed Payments
+- AI API Costs
+- Hosting Costs
+- Database Costs
+- Storage Costs
+- Support Costs
+- Business Profit
+- System Alerts
+
+Admin permissions must be carefully controlled.
+
+Platform administrators must not have unrestricted access to private customer company accounting records.
+
+---
+
+# 30. COMPLETE SAAS FINANCIAL METRICS
+
+Implement:
+
+- Monthly Recurring Revenue
+- Annual Recurring Revenue
+- Average Revenue per User
+- Customer Churn
+- Revenue Churn
+- Customer Acquisition Cost
+- Customer Lifetime Value
+- Gross Margin
+- Net Profit Margin
+- Renewal Rate
+- Monthly Growth
+- Annual Growth
+- Customer Payback Period
+- AI Cost per Request
+- Cost per Customer
+- Contribution Margin
+- Break-even Customer Count
+
+Clearly distinguish:
+
+- Cash Collected
+- Recognized Revenue
+- Deferred Revenue
+- Taxes
+- Refunds
+- Operating Expenses
+- Net Profit
+
+Use documented financial metric definitions.
+
+Annual prepaid subscription accounting must support applicable deferred revenue recognition.
+
+Keep the SaaS platform's books completely separate from customer company books.
+
+---
+
+# 31. AI COST CONTROL
+
+Track:
+
+- AI Chat Usage
+- OCR Processing
+- Document Processing
+- Audio Processing
+- Video Processing
+- Storage
+- Database Cost
+- Hosting Cost
+- External API Fees
+
+Implement:
+
+- AI Quotas
+- Rate Limits
+- Credit Limits
+- Usage Alerts
+- Budget Limits
+- Cost Dashboard
+- Optional Extra Credits
+- Abuse Prevention
+
+Never unexpectedly charge customers for undisclosed usage.
+
+---
+
+# 32. BUSINESS GROWTH TOOLS
+
+Support optional:
+
+- Referral Links
+- Referral Tracking
+- Partner Accounts
+- Affiliate Rewards
+- Signup Analytics
+- Conversion Tracking
+- Marketing Attribution
+- Customer Retention Reports
+
+Require legitimate referrals.
+
+Obtain consent before sharing customer information with external partners.
+
+---
+
+# 33. SECURITY AND PRIVACY
+
+Implement:
+
+- Secure Authentication
+- Server-Side Authorization
+- Role-Based Access
+- Company Isolation
+- Secure Sessions
+- HTTPS
+- Secure API Routes
+- File Validation
+- Protected File Storage
+- Secrets Management
+- Audit Logs
+- Financial Period Locks
+- Backups
+- Restore Verification
+- Safe Data Export
+- Data Retention Controls
+- Secure Payment Events
+
+Protect against:
+
+- Cross-Company Data Access
+- Duplicate Posting
+- Unauthorized Financial Changes
+- Malicious Uploads
+- Spreadsheet Formula Injection
+- Prompt Injection
+- Exposed Secrets
+- Insecure Admin Access
+
+Uploaded documents must be treated as untrusted information.
+
+---
+
+# 34. PERFORMANCE AND RELIABILITY
+
+Build a smooth, responsive application.
+
+Implement:
+
+- Autosaved Drafts
+- Safe Retries
+- Fast Search
+- Indexed Queries
+- Background Jobs
+- Upload Progress
+- Pagination
+- Efficient Reports
+- Cache Invalidation
+- Mobile Optimization
+- Loading States
+- Error Monitoring
+- Connection Recovery
+- Backups
+- Concurrent Transaction Protection
+
+Do not display stale balances as current.
+
+Do not sacrifice financial correctness for interface speed.
+
+---
+
+# 35. WEB, ANDROID AND WINDOWS DELIVERY
+
+Deliver the product for three target platforms.
+
+## WEB APPLICATION
+
+Build a fully responsive web application connected to the trusted backend.
+
+## ANDROID APPLICATION
+
+Prepare a real Android project and build configuration.
+
+Use a suitable technology such as Capacitor or another appropriate cross-platform framework when justified.
+
+Generate a working APK when the required Android build tools are available.
+
+Test login, navigation, file uploads, photo capture, reports, and backend communication on Android.
+
+## WINDOWS APPLICATION
+
+Prepare a Windows desktop application using a suitable technology such as Tauri or Electron.
+
+Generate a Windows EXE or installer when the required build tools and environment are available.
+
+Test login, printing, file export, downloads, and backend connectivity.
+
+## SHARED BACKEND
+
+Web, Android, and Windows must use the same authorized accounting backend and database services.
+
+Do not maintain separate incompatible financial databases for each platform.
+
+Clearly document whether internet access is required.
+
+If APK or EXE building is blocked by the current environment, provide the complete platform project, build configuration, reproducible commands, and an honest explanation of what could not be verified.
+
+Never fabricate application binaries.
+
+---
+
+# 36. COMPLETE TECHNICAL ARCHITECTURE
+
+Use the existing project technology stack when it is suitable.
+
+For a new application, a suitable architecture may be:
+
+Frontend:
+- React
+- TypeScript
+- Appropriate UI Framework
+- Reusable Components
+- Responsive Styling
+
+Backend:
+- Node.js
+- TypeScript
+- Express or Fastify
+- Validated APIs
+
+Database:
+- PostgreSQL
+- Drizzle or Prisma
+- Proper Migrations
+- Transactional Posting
+
+Core Packages:
+- Accounting Engine
+- GST Engine
+- Inventory Engine
+- Financial Mathematics
+- Spreadsheet Engine
+- Shared Validation
+- AI Services
+
+Integrations:
+- OCR
+- Speech Recognition
+- AI Provider
+- Document Parsing
+- Payment Gateway
+- Email Notifications
+
+Infrastructure:
+- Secure Authentication
+- Background Jobs
+- Structured Logs
+- Backups
+- Automated Tests
+
+Use stable and compatible dependencies.
+
+Never expose private environment variables to frontend code.
+
+---
+
+# 37. MANDATORY SOURCE CODE FILE ORGANIZATION
+
+Create a complete source-code repository.
+
+Do not omit required files.
+
+Suggested structure:
+
+APNA-BUSINESS/
+
+  README.md
+
+  package.json
+
+  package-lock.json
+
+  .gitignore
+
+  .env.example
+
+  tsconfig.json
+
+  workspace configuration
+
+  apps/
+
+    web/
+
+      package.json
+
+      index.html
+
+      src/
+
+        main.tsx
+
+        App.tsx
+
+        pages/
+
+        components/
+
+        hooks/
+
+        services/
+
+        contexts/
+
+        styles/
+
+        utilities/
+
+    api/
+
+      package.json
+
+      src/
+
+        server/
+
+        config/
+
+        middleware/
+
+        routes/
+
+        controllers/
+
+        services/
+
+        repositories/
+
+        validators/
+
+        integrations/
+
+        jobs/
+
+    worker/
+
+      package.json
+
+      src/
+
+    android/
+
+      Android build configuration and source when implemented
+
+    windows/
+
+      Windows desktop build configuration and source when implemented
+
+  packages/
+
+    accounting-engine/
+
+    gst-engine/
+
+    inventory-engine/
+
+    financial-math/
+
+    spreadsheet-engine/
+
+    ai-services/
+
+    shared-types/
+
+    shared-validation/
+
+    ui-components/
+
+  database/
+
+    schema/
+
+    migrations/
+
+    seeds/
+
+    test-fixtures/
+
+  tests/
+
+    unit/
+
+    integration/
+
+    accounting/
+
+    gst/
+
+    inventory/
+
+    spreadsheet/
+
+    ai/
+
+    subscriptions/
+
+    payments/
+
+    security/
+
+    end-to-end/
+
+    regression/
+
+  scripts/
+
+    setup/
+
+    verify/
+
+    backup/
+
+    export/
+
+    package/
+
+  docs/
+
+    architecture/
+
+    database/
+
+    accounting/
+
+    formulas/
+
+    api/
+
+    security/
+
+    testing/
+
+    deployment/
+
+    user-guide/
+
+  public/
+
+    branding/
+
+    icons/
+
+    images/
+
+    manifests/
+
+  deployment/
+
+    configuration/
+
+    environment/
+
+    backup/
+
+This structure is a functional checklist rather than a requirement to create empty directories.
+
+Use filenames, extensions, and configuration appropriate to the chosen stack.
+
+For every module:
+
+- Implement real source files.
+- Ensure imported files exist.
+- Ensure exported symbols exist.
+- Ensure dependencies are declared.
+- Ensure environment variables are documented.
+- Ensure API routes are registered.
+- Ensure database models are connected.
+- Ensure migrations are available.
+- Ensure the frontend connects to the backend.
+- Ensure tests are included where appropriate.
+
+Do not create dummy files merely to appear complete.
+
+---
+
+# 38. CRITICAL SOURCE FILE COMPLETENESS CHECK
+
+Before delivering the source code:
+
+1. Generate an actual inventory of repository files.
+2. Verify all required files exist.
+3. Verify local imports resolve.
+4. Verify no modules contain missing dependencies.
+5. Verify package scripts reference real files.
+6. Verify database migrations are complete.
+7. Verify TypeScript type checking.
+8. Verify the application build.
+9. Verify backend startup.
+10. Verify frontend startup.
+11. Verify environment template completeness.
+12. Verify tests can execute.
+13. Verify source assets exist.
+14. Verify required mobile configuration.
+15. Verify required desktop configuration.
+16. Verify documentation accuracy.
+17. Verify no real secrets are included.
+18. Verify the repository can be installed from a fresh checkout.
+19. Verify the source ZIP contains all required project files.
+20. Extract the ZIP into a clean directory and repeat the essential installation, type-checking, and build checks.
+
+Report all failures before claiming completion.
+
+A filename listing is not proof that its functionality works.
+
+---
+
+# 39. MANDATORY COMPLETE ZIP EXPORT
+
+The owner must be able to obtain the complete source code as ONE downloadable ZIP archive.
+
+Preferred filename:
+
+APNA-BUSINESS-FULL-SOURCE.zip
+
+Include:
+
+- Frontend Source Code
+- Backend Source Code
+- Database Schemas
+- Database Migrations
+- AI Integration Code
+- Accounting Engine
+- GST Engine
+- Inventory Engine
+- Financial Formula Engine
+- Spreadsheet Engine
+- Subscription System
+- Payment Integration Code
+- Admin Dashboard
+- Shared Packages
+- UI Components
+- Tests
+- Configuration Templates
+- Documentation
+- Build Scripts
+- Android Project Files when implemented
+- Windows Desktop Project Files when implemented
+- Required Static Assets
+- Dependency Manifests
+- Lockfiles
+
+Do not include:
+
+- Actual Passwords
+- Real API Keys
+- Production Secrets
+- Private Environment Files
+- Credential Files
+- Unapproved Customer Data
+
+Ordinary generated dependencies such as node_modules do not need to be included if the project can reinstall them using its verified lockfile.
+
+Include a complete .env.example file listing the configuration keys needed to run the software, with safe placeholders.
+
+If original production databases require separate backup or migration, document that explicitly rather than silently omitting them or putting sensitive records into the source ZIP.
+
+Do not require a paid hosting subscription merely to receive the source code.
+
+If the environment cannot generate or deliver a ZIP archive directly, explicitly report the limitation and provide a reproducible export procedure. Do not falsely claim that a ZIP was created.
+
+---
+
+# 40. MANDATORY PACKAGE SCRIPTS
+
+Provide appropriate working commands for the selected project architecture.
+
+Include, where applicable:
+
+- npm install
+- npm run dev
+- npm run build
+- npm run start
+- npm run typecheck
+- npm run lint
+- npm run test
+- npm run test:integration
+- npm run db:migrate
+- npm run db:seed
+- npm run verify
+- npm run export:source
+- npm run build:android
+- npm run build:windows
+
+Adapt these commands correctly to the selected package manager and workspace structure.
+
+Never document scripts that do not actually exist.
+
+Commands must work in the appropriate supported environment.
+
+Provide Windows setup instructions.
+
+---
+
+# 41. COMPLETE ACCOUNTING TESTS
+
+Use a separate demo company.
+
+Never use actual customer accounting data for demonstrations without permission.
+
+Test:
+
+## CAPITAL
+
+Owner contributes ₹10,00,000.
+
+Debit Cash.
+
+Credit Capital.
+
+Verify the balance sheet.
+
+## PURCHASE
+
+Purchase 20 mobile phones at ₹12,999 each.
+
+Total before separately applicable GST = ₹2,59,980.
+
+Verify stock, supplier payable, tax treatment, and journal balance.
+
+## SALE
+
+Sell 5 mobile phones.
+
+Verify invoice, GST, stock reduction, FIFO cost, profit, receivables, and financial statements.
+
+## CUSTOMER PAYMENT
+
+Receive a partial customer payment.
+
+Reduce the receivable correctly.
+
+Do not record it as a second sale.
+
+## SUPPLIER PAYMENT
+
+Pay a supplier.
+
+Reduce the payable correctly.
+
+Do not record a second purchase.
+
+## RETURNS
+
+Test sales and purchase returns.
+
+Verify financial, inventory, and tax adjustments.
+
+## REPORTS
+
+Verify:
+
+- Trial Balance
+- Balance Sheet
+- Profit & Loss
+- Cash Flow
+- Stock Summary
+- GST Summary
+- Outstanding Balances
+
+---
+
+# 42. AI, SPREADSHEET, SECURITY AND PAYMENT TESTS
+
+Create automated tests for:
+
+- AI Invoice Extraction
+- Missing Data Detection
+- Duplicate Invoice Prevention
+- Approval Before Posting
+- Voice Transaction Preview
+- RAG Knowledge Isolation
+- Approved AI Corrections
+- Excel Formula Results
+- Circular References
+- Financial Formula Accuracy
+- Multi-Company Security
+- User Permission Enforcement
+- Payment Webhook Verification
+- Subscription Purchase
+- Monthly Renewal
+- Annual Renewal
+- Cancellation
+- Refund
+- Duplicate Payment Events
+- AI Credit Usage
+- Admin Access Restrictions
+- SaaS Revenue Calculations
+- Database Failure Recovery
+- Audit Trail Preservation
+- Source ZIP Integrity
+- Web Build
+- Android Build where available
+- Windows Build where available
+
+Block production release if critical accounting, payment, or security tests fail.
+
+---
+
+# 43. DEVELOPMENT STAGES
+
+Develop the project in a safe, logical order.
+
+STAGE 1 — Existing Source Code Audit
+
+STAGE 2 — Project Structure and Database
+
+STAGE 3 — Authentication and Company Management
+
+STAGE 4 — Double-Entry Accounting
+
+STAGE 5 — Ledgers and Vouchers
+
+STAGE 6 — Sales, Purchases and GST
+
+STAGE 7 — Inventory and FIFO
+
+STAGE 8 — Financial Reports
+
+STAGE 9 — Smart Dashboard
+
+STAGE 10 — Banking and Reconciliation
+
+STAGE 11 — Excel-like Spreadsheet
+
+STAGE 12 — Financial Mathematics
+
+STAGE 13 — AI Everywhere
+
+STAGE 14 — Photo, Voice, Audio and Documents
+
+STAGE 15 — Video Understanding
+
+STAGE 16 — Company AI Knowledge
+
+STAGE 17 — Approved Continuous Improvement
+
+STAGE 18 — Subscriptions and AI Credits
+
+STAGE 19 — Secure Payment Integration
+
+STAGE 20 — SaaS Revenue and Admin Dashboard
+
+STAGE 21 — Business Growth Tools
+
+STAGE 22 — Complete Automated Testing
+
+STAGE 23 — Android Packaging
+
+STAGE 24 — Windows Packaging
+
+STAGE 25 — Full Source ZIP Export
+
+STAGE 26 — Final Security and Accounting Review
+
+STAGE 27 — Production Deployment with Owner Approval
+
+Do not sacrifice core accounting accuracy to deliver many unfinished features simultaneously.
+
+---
+
+# 44. PROGRESS TRACKING
+
+Maintain a truthful progress checklist.
+
+Statuses:
+
+- NOT STARTED
+- IN PROGRESS
+- IMPLEMENTED
+- TESTED
+- BLOCKED
+- RELEASED
+
+For each module show:
+
+- Frontend Status
+- Backend Status
+- Database Status
+- API Status
+- Test Status
+- Known Problems
+- External Services Required
+- Estimated Running Costs
+- Next Development Step
+
+Do not claim a module is fully complete until the relevant tests pass.
+
+---
+
+# 45. NON-NEGOTIABLE RULES
+
+1. Official public name is APNA BUSINESS.
+2. No public version numbers.
+3. Preserve the cream, green, and gold design.
+4. No mandatory AI/Tally mode selection.
+5. One consistent accounting engine.
+6. Every important button must work.
+7. Never invent accounting balances.
+8. Never double-post transactions.
+9. Never leave journal entries unbalanced.
+10. Never silently modify finalized accounts.
+11. Never skip GST validation.
+12. Never mix company data.
+13. Never expose private credentials.
+14. Never fake subscription payment success.
+15. Never treat AI-generated numbers as authoritative accounting values.
+16. Never automatically retrain the base AI model using private uploads.
+17. Never claim complete Excel compatibility without tests.
+18. Never claim zero possible software errors.
+19. Never deploy critical changes without approval.
+20. Never use demo financial records as actual customer records.
+21. Always provide error correction and audit history.
+22. Always test important financial formulas.
+23. Always protect customer financial privacy.
+24. Always verify subscription and payment events.
+25. Always provide accurate documentation.
+26. Always check source code completeness.
+27. Always include necessary project configuration and migration files.
+28. Always report missing features honestly.
+29. Never claim a source ZIP or binary exists until it has actually been generated and verified.
+30. Prioritize accuracy, security, reliability, and ease of use.
+
+---
+
+# 46. FINAL DELIVERABLES
+
+Deliver the following when the required stages have been implemented and verified.
+
+## A. WORKING WEB APPLICATION
+
+A responsive, working APNA BUSINESS web application.
+
+## B. COMPLETE SOURCE CODE
+
+All necessary frontend, backend, database, AI, spreadsheet, accounting, subscription, payment, and configuration files.
+
+## C. SOURCE ZIP
+
+One complete, verified archive named:
+
+APNA-BUSINESS-FULL-SOURCE.zip
+
+## D. ANDROID APPLICATION
+
+Android project source, configuration, and working APK when the environment supports building and testing it.
+
+## E. WINDOWS APPLICATION
+
+Windows desktop project source, configuration, and working EXE or installer when the environment supports building and testing it.
+
+## F. DATABASE
+
+Schema, migrations, setup instructions, backup, and restore instructions.
+
+## G. DOCUMENTATION
+
+README, installation guide, architecture, environment variables, deployment guide, and user guide.
+
+## H. TEST RESULTS
+
+Actual results from accounting, financial, AI, spreadsheet, security, payment, and build tests.
+
+## I. FEATURE STATUS
+
+A complete checklist showing implemented, tested, incomplete, and blocked features.
+
+---
+
+# 47. FINAL EXECUTION INSTRUCTIONS
+
+Do not stop after producing a design document.
+
+Do not stop after generating a homepage.
+
+Do not stop after creating empty folders.
+
+Do not stop after generating a partial list of source files.
+
+First inspect the existing project if access is available.
+
+Then create:
+
+1. Existing Feature Audit
+2. Missing Feature Inventory
+3. Technical Architecture
+4. Database Design
+5. Accounting Posting Design
+6. GST and Inventory Design
+7. Spreadsheet Formula Architecture
+8. AI Integration Architecture
+9. Subscription and Payments Architecture
+10. Security Plan
+11. Testing Plan
+12. Source File Manifest
+13. Development Roadmap
+14. Operating Cost Estimate
+
+Then begin real implementation.
+
+Build each module with its actual frontend, backend, database, tests, and supporting files.
+
+After each stage:
+
+- Run the appropriate tests.
+- Verify that existing modules still work.
+- Reconcile accounting records.
+- Update the progress checklist.
+- Identify any limitations.
+- Continue to the next stage when safe and authorized.
+
+When the source implementation is complete:
+
+- Audit all project files.
+- Check imports.
+- Check dependencies.
+- Check package scripts.
+- Run type checking.
+- Run automated tests.
+- Run production builds.
+- Verify database migrations.
+- Generate the source ZIP.
+- Extract and verify the ZIP.
+- Prepare Android and Windows builds.
+- Report actual build results.
+
+Do not claim that all deliverables exist until they have been verified.
+
+Never invent test results, downloadable files, deployment status, or functioning integrations.
+
+If the development environment reaches a quota, context, tooling, or permission limit, preserve the current project state and provide a precise continuation checklist rather than pretending the task is finished.
+
+## FINAL PRODUCT GOAL
+
+# APNA BUSINESS
+
+YOUR PRIVATE AI ACCOUNTANT
+
+A complete and extremely easy-to-use business management platform combining:
+
+Professional accounting.
+
+Simple billing.
+
+GST.
+
+Inventory.
+
+Banking.
+
+Excel-like spreadsheets.
+
+AI assistance everywhere.
+
+Photo and voice accounting.
+
+Private company knowledge.
+
+Approved continuous improvement.
+
+Strong error prevention.
+
+Reliable financial reports.
+
+Multiple companies.
+
+Subscriptions and SaaS revenue.
+
+Android, Windows, and Web support.
+
+Complete source code ownership and export.
+
+**START BY INSPECTING THE EXISTING PROJECT. THEN IMPLEMENT AND TEST THE ENTIRE APPLICATION IN STAGES, VERIFY EVERY REQUIRED FILE, AND PROVIDE THE COMPLETE SOURCE ARCHIVE AND SUPPORTED BUILDS.**
