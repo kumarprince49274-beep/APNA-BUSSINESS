@@ -1,0 +1,17 @@
+APNA BUSINESS 0.6.0 — local validation, 2026-10-15
+Platform: Node.js v22.16.0, experimental node:sqlite
+npm test: 46 total, 46 pass, 0 fail
+
+Tests include previous ledger/invoices, GST, company isolation, login, backup,
+password reset, local text AI privacy and provider gating, payroll internal review,
+optional payment verification with mocked provider, new CRM permissions,
+PO approval, manufacturing work-order isolation, manual attendance,
+manual 2B reference comparison, and Salary Statement access control.
+
+Smoke test: isolated synthetic 3-company local database created successfully;
+HTTP login, company enumeration, ERP CRM/PO/BOM/work orders/attendance,
+manual GST reference comparison and website / route responded successfully.
+
+NOT tested with live GSTN, EPFO/ESIC/ITD, payroll payout, real Razorpay,
+real OpenAI account, durable production DB, SMS OTP, or public SaaS workloads.
+Passing local tests do NOT certify compliance or production readiness.
