@@ -12,6 +12,8 @@
     "start": "node --experimental-sqlite src/server.js",
     "test": "node --experimental-sqlite --test test/*.test.js",
     "backup": "node --experimental-sqlite scripts/backup.mjs",
-    "restore": "node --experimental-sqlite scripts/restore.mjs"
+    "restore": "node --experimental-sqlite scripts/restore.mjs",
+    "demo": "node --experimental-sqlite scripts/demo.mjs",
+    "demo:start": "node --experimental-sqlite scripts/demo-server.mjs"
   }
 }

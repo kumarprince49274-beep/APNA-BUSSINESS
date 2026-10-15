@@ -1,0 +1,272 @@
+
+> apna-business-local@0.5.0 test
+> node --experimental-sqlite --test test/*.test.js
+
+TAP version 13
+# (node:6820) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: integer GST calculation
+ok 1 - integer GST calculation
+  ---
+  duration_ms: 0.666066
+  type: 'test'
+  ...
+# Subtest: balanced journal and rejection of unbalanced postings
+ok 2 - balanced journal and rejection of unbalanced postings
+  ---
+  duration_ms: 49.034292
+  type: 'test'
+  ...
+# Subtest: purchase to inventory, sale FIFO, GST and payments; no duplicate revenue on receipt
+ok 3 - purchase to inventory, sale FIFO, GST and payments; no duplicate revenue on receipt
+  ---
+  duration_ms: 48.030196
+  type: 'test'
+  ...
+# Subtest: multi-company isolation and wrong-contact checks
+ok 4 - multi-company isolation and wrong-contact checks
+  ---
+  duration_ms: 41.19698
+  type: 'test'
+  ...
+# Subtest: intra vs inter-state GST
+ok 5 - intra vs inter-state GST
+  ---
+  duration_ms: 51.110957
+  type: 'test'
+  ...
+# Subtest: safe spreadsheet arithmetic, formulas and cycle prevention
+ok 6 - safe spreadsheet arithmetic, formulas and cycle prevention
+  ---
+  duration_ms: 1.526434
+  type: 'test'
+  ...
+# Subtest: discounted purchase inventory layers exactly match net cost
+ok 7 - discounted purchase inventory layers exactly match net cost
+  ---
+  duration_ms: 51.447905
+  type: 'test'
+  ...
+# (node:6821) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: Payroll maths with February days, approvals and salary isolation
+ok 8 - Payroll maths with February days, approvals and salary isolation
+  ---
+  duration_ms: 124.998788
+  type: 'test'
+  ...
+# Subtest: GST internal review has no filing claim and unregistered business rejects draft
+ok 9 - GST internal review has no filing claim and unregistered business rejects draft
+  ---
+  duration_ms: 114.065843
+  type: 'test'
+  ...
+# Subtest: Paid access cannot be activated without independent matching provider verification
+ok 10 - Paid access cannot be activated without independent matching provider verification
+  ---
+  duration_ms: 126.052648
+  type: 'test'
+  ...
+# (node:6822) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: HTTP login cookies + CSRF + company membership + reporting
+ok 11 - HTTP login cookies + CSRF + company membership + reporting
+  ---
+  duration_ms: 193.742743
+  type: 'test'
+  ...
+# (node:6853) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: Bank import is company-scoped and rejects duplicate external entries
+ok 12 - Bank import is company-scoped and rejects duplicate external entries
+  ---
+  duration_ms: 5.240891
+  type: 'test'
+  ...
+# (node:6859) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: Three companies have distinct settings and cannot share tasks or departments
+ok 13 - Three companies have distinct settings and cannot share tasks or departments
+  ---
+  duration_ms: 156.573027
+  type: 'test'
+  ...
+# Subtest: Password policy allows secure eight characters, privacy profile is private
+ok 14 - Password policy allows secure eight characters, privacy profile is private
+  ---
+  duration_ms: 114.134938
+  type: 'test'
+  ...
+# Subtest: API denies outsider cross-company requests and employee work analytics
+ok 15 - API denies outsider cross-company requests and employee work analytics
+  ---
+  duration_ms: 225.920609
+  type: 'test'
+  ...
+# (node:6875) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: approval queue: no ledger posting until explicit approval; cannot approve twice
+ok 16 - approval queue: no ledger posting until explicit approval; cannot approve twice
+  ---
+  duration_ms: 5.841429
+  type: 'test'
+  ...
+# Subtest: rejection never posts and cross-company accounts are refused
+ok 17 - rejection never posts and cross-company accounts are refused
+  ---
+  duration_ms: 3.658132
+  type: 'test'
+  ...
+# Subtest: GST, round-half-up and discount in integer paise
+ok 18 - GST, round-half-up and discount in integer paise
+  ---
+  duration_ms: 1.087802
+  type: 'test'
+  ...
+# Subtest: profit margins, zero-revenue and working capital
+ok 19 - profit margins, zero-revenue and working capital
+  ---
+  duration_ms: 0.193371
+  type: 'test'
+  ...
+# Subtest: simple interest and input safety
+ok 20 - simple interest and input safety
+  ---
+  duration_ms: 0.391891
+  type: 'test'
+  ...
+# (node:6887) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: User-chosen email password login and protected password change
+ok 21 - User-chosen email password login and protected password change
+  ---
+  duration_ms: 337.500168
+  type: 'test'
+  ...
+# Subtest: Company private file upload/list/download/delete isolated and CSRF guarded
+ok 22 - Company private file upload/list/download/delete isolated and CSRF guarded
+  ---
+  duration_ms: 203.960267
+  type: 'test'
+  ...
+# Subtest: File library supports real PDF headers, voice recordings and rejects oversize payload
+ok 23 - File library supports real PDF headers, voice recordings and rejects oversize payload
+  ---
+  duration_ms: 212.151292
+  type: 'test'
+  ...
+# (node:6908) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: bank reconciliation does not post money and matching/unmatching is auditable
+ok 24 - bank reconciliation does not post money and matching/unmatching is auditable
+  ---
+  duration_ms: 46.785567
+  type: 'test'
+  ...
+# Subtest: bank matching blocks wrong amounts and cross-company records
+ok 25 - bank matching blocks wrong amounts and cross-company records
+  ---
+  duration_ms: 44.893762
+  type: 'test'
+  ...
+# Subtest: bank HTTP endpoints enforce login, CSRF, and company ownership
+ok 26 - bank HTTP endpoints enforce login, CSRF, and company ownership
+  ---
+  duration_ms: 156.98918
+  type: 'test'
+  ...
+# (node:6919) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: FULL sales credit note restores stock, reverses ledger/GST, removes customer due
+ok 27 - FULL sales credit note restores stock, reverses ledger/GST, removes customer due
+  ---
+  duration_ms: 50.529048
+  type: 'test'
+  ...
+# Subtest: FULL purchase debit note clears original stock/payable/GST, keeps original invoice
+ok 28 - FULL purchase debit note clears original stock/payable/GST, keeps original invoice
+  ---
+  duration_ms: 45.913301
+  type: 'test'
+  ...
+# Subtest: returns refuse paid invoices, used purchase lots, partial requests, wrong companies, earlier date
+ok 29 - returns refuse paid invoices, used purchase lots, partial requests, wrong companies, earlier date
+  ---
+  duration_ms: 43.473186
+  type: 'test'
+  ...
+# Subtest: return tax reversal is attributed to return date, not original date
+ok 30 - return tax reversal is attributed to return date, not original date
+  ---
+  duration_ms: 40.909256
+  type: 'test'
+  ...
+# Subtest: return HTTP routes enforce authentication, CSRF and company membership
+ok 31 - return HTTP routes enforce authentication, CSRF and company membership
+  ---
+  duration_ms: 151.715629
+  type: 'test'
+  ...
+# (node:6930) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: Successful logins do not accumulate failed login lockout
+ok 32 - Successful logins do not accumulate failed login lockout
+  ---
+  duration_ms: 1096.507551
+  type: 'test'
+  ...
+# Subtest: Excess failed logins are limited but site assets still serve
+ok 33 - Excess failed logins are limited but site assets still serve
+  ---
+  duration_ms: 41.990538
+  type: 'test'
+  ...
+# (node:6941) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: Password reset uses single-use email tokens, expires, and revokes all sessions
+ok 34 - Password reset uses single-use email tokens, expires, and revokes all sessions
+  ---
+  duration_ms: 214.678418
+  type: 'test'
+  ...
+# Subtest: Password reset links expire and no email service never issues token
+ok 35 - Password reset links expire and no email service never issues token
+  ---
+  duration_ms: 38.532629
+  type: 'test'
+  ...
+# Subtest: End-to-end forgot/reset API flow including CSRF and token sanitization
+ok 36 - End-to-end forgot/reset API flow including CSRF and token sanitization
+  ---
+  duration_ms: 186.263588
+  type: 'test'
+  ...
+# Subtest: Verified SQLite backup retains company data and rejects overwritten files
+ok 37 - Verified SQLite backup retains company data and rejects overwritten files
+  ---
+  duration_ms: 43.908243
+  type: 'test'
+  ...
+# (node:6948) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: Text AI does not reveal finance to sales or viewer without external model
+ok 38 - Text AI does not reveal finance to sales or viewer without external model
+  ---
+  duration_ms: 175.385522
+  type: 'test'
+  ...
+# Subtest: Text AI requires opt-in, provider response is read-only and scoped
+ok 39 - Text AI requires opt-in, provider response is read-only and scoped
+  ---
+  duration_ms: 116.56786
+  type: 'test'
+  ...
+1..39
+# tests 39
+# suites 0
+# pass 39
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 2162.547119

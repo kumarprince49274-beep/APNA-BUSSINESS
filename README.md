@@ -1,3 +1,15 @@
+# CURRENT PATCH NOTE — 2026-10-15
+
+This repository now supports a **demo extension with read-only TEXT AI**, profile/privacy settings, 3-company seeded testing, employee task/work tracking, basic payroll draft approval, GST review-only reports, and an OPTIONAL Razorpay payment-link integration. All are **development/demo features, not full production legal or finance compliance**. The AI is not a broad generative model unless an external `OPENAI_API_KEY` is set and the user has opted in. Photo/PDF/voice AI processing is excluded. Read `UPLOAD-IN-ONE-STEP.md` for safe upload/merge instructions. The descriptions below include historical foundation status and may refer to older test counts or pre-extension capabilities.
+
+---
+
+> **NEW LOCAL DEMO:** To test all three example companies and added secure work modules, start with [DEMO-START-HERE.md](DEMO-START-HERE.md). This version is NOT ready for production deployment or real financial data.
+
+> **NEW LOCAL DEMO:** To test all three example companies and added secure work modules, start with [DEMO-START-HERE.md](DEMO-START-HERE.md). This version is NOT ready for production deployment or real financial data.
+
+> **NEW LOCAL DEMO:** To test all three example companies and added secure work modules, start with [DEMO-START-HERE.md](DEMO-START-HERE.md). This version is NOT ready for production deployment or real financial data.
+
 # Apna Business — My Business AI Accountant (local developer edition)
 
 **Version:** 0.5.0 working source-code foundation based on the attached Apna Business 6.0 specification.
