@@ -1,0 +1,15 @@
+YE FILES GITHUB MEIN UNHI FOLDERS MEIN REPLACE KARNI HAIN (ZIP ko extract karke):
+
+public/app.js              (Create Business form: GST dropdown, GSTIN hide/show)
+src/companies.js           (company banana: bina GST ya GST wala)
+src/db.js
+src/invoices.js            (bina GST company par GST = 0)
+src/schema.sql
+src/server.js
+src/auth.js                (password 8+ character)
+test/gst-registration.test.js
+test/password-8.test.js
+
+data/ folder ko delete mat karna.
+ZIP ko GitHub par single file ki tarah upload mat karna.
+Upload ke baad: Render Deploy "Live" hone do, phir browser mein Ctrl+Shift+R.
