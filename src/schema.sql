@@ -170,4 +170,12 @@ CREATE TABLE IF NOT EXISTS password_reset_tokens (
  expires_at TEXT NOT NULL,
  created_at TEXT NOT NULL
 );
-CREATE INDEX IF NOT EXISTS ix_password_resets_user ON password_reset_tokens(user_id);
+CREATE INDEX IF NOT EXISTS ix_password_resets_user ON password_reset_tokens(user_id);CREATE TABLE IF NOT EXISTS company_settings (
+  company_id TEXT PRIMARY KEY
+    REFERENCES companies(id) ON DELETE CASCADE,
+
+  gst_type TEXT NOT NULL DEFAULT 'REGULAR'
+    CHECK (gst_type IN ('UNREGISTERED', 'REGULAR', 'COMPOSITION')),
+
+  updated_at TEXT NOT NULL
+);
